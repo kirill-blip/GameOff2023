@@ -1,0 +1,11 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+VisualStudioVersion = 16.0.0.0
+MinimumVisualStudioVersion = 16.0.0.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOff2023.Windows", "GameOff2023.Windows\GameOff2023.Windows.csproj", "{8A49E07F-A4F7-45AA-BE55-4E9DDE81FBF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOff2023", "GameOff2023\GameOff2023.csproj", "{E3BA2C72-272C-44A4-8E8B-5EAEEC2DE984}"
+EndProject
+Global
+EndGlobal
