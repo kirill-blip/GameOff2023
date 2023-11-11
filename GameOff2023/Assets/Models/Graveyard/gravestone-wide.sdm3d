@@ -1,0 +1,15 @@
+!Model
+Id: 5d7a28e4-d4ff-4f27-a1f7-de82f86e834f
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/gravestone-wide.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    09fbab1e7724b4b5f44f3e5173e53fd7:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    798c859fc3b099ed165f45e293ddfa42~../../../Resources/Models/Graveyard/gravestone-wide.fbx: 75eed72ceec6972c96edf7815ddc4bf4

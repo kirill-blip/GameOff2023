@@ -1,0 +1,15 @@
+!Model
+Id: 4e5bad2c-35ab-4369-ae85-2c6c8f9e0d93
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/fence-damaged.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    6b04c238909af20656ae5652d4c49899:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    e818e11ef0c87e4e6c7e3dd9af30ba46~../../../Resources/Models/Graveyard/fence-damaged.fbx: f3fb20385532e920cdcc58c4ecbf34f2

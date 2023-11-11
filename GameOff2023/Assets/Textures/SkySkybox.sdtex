@@ -1,0 +1,8 @@
+!Texture
+Id: 6dcfb5db-3f63-4d86-a96b-cbeca73ed884
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/Textures/SkySkybox.png
+Type: !ColorTextureType
+    UseSRgbSampling: false
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

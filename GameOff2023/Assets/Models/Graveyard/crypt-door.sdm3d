@@ -1,0 +1,15 @@
+!Model
+Id: a377b33c-68a9-47b7-b9ea-eae64cdc9eb2
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/crypt-door.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    db92971527f89fa3f88b6517b10f47f3:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    fb309c42a6e4abd7efece5d846f543c1~../../../Resources/Models/Graveyard/crypt-door.fbx: 08d197364589f20666397e843cbe6cf3

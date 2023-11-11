@@ -1,0 +1,15 @@
+!Model
+Id: d5595184-36b8-438a-a37b-0f93f4b87d2d
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/border-pillar.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    00d027d8e0724a657f9992fac8c83413:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    a20c42dc568f7f733a6669e6531b1860~../../../Resources/Models/Graveyard/border-pillar.fbx: b2604b8d2a8afba4c253858cd2a7ea06

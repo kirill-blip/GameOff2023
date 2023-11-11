@@ -1,0 +1,15 @@
+!Model
+Id: d0c895a7-a05c-4ed3-9db0-4b3aa76cf406
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/pine-fall.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    a8fa289371cd720c33f387e902fef098:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    98c4a976232e02840a9045ef656e4b09~../../../Resources/Models/Graveyard/pine-fall.fbx: d069f67a94583d0fb6ee2f370500f9c6

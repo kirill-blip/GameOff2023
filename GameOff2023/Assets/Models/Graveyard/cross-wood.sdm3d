@@ -1,0 +1,15 @@
+!Model
+Id: d833bead-2f7c-47c3-9a00-76a7de941722
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/cross-wood.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    134506b518b51f77830feda38ac54b28:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    a7590c36a90430a25481e65f4cf6818e~../../../Resources/Models/Graveyard/cross-wood.fbx: ed8f5161c78230fa46de7dec9df83e18

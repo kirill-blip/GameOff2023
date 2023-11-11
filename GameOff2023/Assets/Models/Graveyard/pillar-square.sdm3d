@@ -1,0 +1,15 @@
+!Model
+Id: b09b5486-f73e-4d34-bd2f-8083b9cb3938
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/pillar-square.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    4705a2831b0e9d635e0aa3a0d1eaaf0b:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    cfd8923cec8c98964807f65b6374988d~../../../Resources/Models/Graveyard/pillar-square.fbx: 3fd0419bdf154191ba58302e2bc88ed2

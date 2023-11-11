@@ -1,0 +1,8 @@
+!Texture
+Id: a25aab2b-0adf-4790-8515-eb6c2a2bdb7b
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/Textures/BlueSkySkybox.png
+Type: !ColorTextureType
+    UseSRgbSampling: false
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

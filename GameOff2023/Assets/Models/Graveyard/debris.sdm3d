@@ -1,0 +1,15 @@
+!Model
+Id: 37daf35e-bbba-4777-8fbe-e73725b140b3
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/debris.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    a820bc047be1b370c3399c2ba3c69b62:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    829b5fffcb900457b37c2cf9793adba3~../../../Resources/Models/Graveyard/debris.fbx: 609c0fdc6dc8f52379a235315b2383df

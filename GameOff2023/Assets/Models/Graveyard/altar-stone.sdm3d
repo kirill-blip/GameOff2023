@@ -1,0 +1,15 @@
+!Model
+Id: 66c52192-7087-4210-bfe7-2570cc54cb7f
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/altar-stone.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    a85370d09c4b35fe0b236eda7693abb3:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    64d397d846e54882b9173a1d69e6a038~../../../Resources/Models/Graveyard/altar-stone.fbx: a150148a34dffc42fb51332c1efd9544

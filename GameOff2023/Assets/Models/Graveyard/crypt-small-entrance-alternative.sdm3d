@@ -1,0 +1,15 @@
+!Model
+Id: dff599e2-b436-407b-a667-6094f3dec26f
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/crypt-small-entrance-alternative.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    1cb2ea75d7233f4136e66c076da5d3a8:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    772d50719397f538b14ffcf11c176b59~../../../Resources/Models/Graveyard/crypt-small-entrance-alternative.fbx: 26fae353a5e0ef03a378c9cdfbcd96df

@@ -1,0 +1,15 @@
+!Model
+Id: dcbc2d75-69e9-4873-b98c-9c4664c71e32
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/gravestone-flat-open.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    4cf6d45f48d9b93aa1d823eb66a5fe1e:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    6378f0fc37b566535a24fdf5370fa5e1~../../../Resources/Models/Graveyard/gravestone-flat-open.fbx: c4ea61db190d8c3694b129dce050cb50

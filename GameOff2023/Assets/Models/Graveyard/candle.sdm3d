@@ -1,0 +1,15 @@
+!Model
+Id: 4e8e9e61-e7c4-4cad-9c07-13bb76cbcec7
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/candle.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    148d04806025ba26027cf83e35c3a65d:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    7e75c54f8f798892fa4537a8cee92303~../../../Resources/Models/Graveyard/candle.fbx: 9a4b664597a0601e81ff7c58d512541c

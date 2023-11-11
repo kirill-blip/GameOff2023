@@ -1,0 +1,15 @@
+!Model
+Id: 0a8aa714-4d0b-4afb-81b5-cccd4dc78e99
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/rocks.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    301721864e6ce4c210f7d34865a3a7d6:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    b71de7ea5c3395586bfe84cd7b51c2ae~../../../Resources/Models/Graveyard/rocks.fbx: d29cb9c44e1b9ec9c14bbc680301c414

@@ -1,0 +1,15 @@
+!Model
+Id: 1a3f97f7-3ba0-488a-ae60-604ecf911538
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/gravestone-broken.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    86e5a539e56e41aeead2eb6cb78c907b:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    a0a812316ba93ca23bf5a9c681c4d7b9~../../../Resources/Models/Graveyard/gravestone-broken.fbx: 02ee52e35f396e2154b52aed17d18d4f

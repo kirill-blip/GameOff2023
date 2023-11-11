@@ -1,0 +1,15 @@
+!Model
+Id: 47f187cc-0698-4a28-8fd8-897af15878e3
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/column-large.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    d1393f30edd7b01e7e8498d07a4bfba3:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    e96870847611d72424eca32d85563817~../../../Resources/Models/Graveyard/column-large.fbx: 80d55551fb808057355480d1878bf8bd

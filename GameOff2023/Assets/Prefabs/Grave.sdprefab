@@ -1,0 +1,476 @@
+!PrefabAsset
+Id: b77d21d4-ea19-407b-88c1-3ad7b509ac32
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! ca5681f1-3b84-4502-84e8-aabe3427b3ef
+        - ref!! aedb3575-14dd-45b4-a450-61829573b541
+        - ref!! cfd87982-b52e-472f-b071-60b29c2b949d
+        - ref!! 1bfe4208-f371-4214-ac8c-e80780118434
+        - ref!! 1fb37626-43a6-470d-9aed-14e062d58dbf
+        - ref!! bed95add-a9df-414a-8bd8-0128e1f3ab58
+        - ref!! 3823b93d-7b07-41c5-840f-5218ea0b968e
+    Parts:
+        -   Entity:
+                Id: 089a04e7-0e1f-4c57-bbf7-16350530fab3
+                Name: gravestone-bevel
+                Components:
+                    06f1270f5914a233bc979f4c7b9b879a: !TransformComponent
+                        Id: f268e060-b3b5-4540-b1c7-db26c991e48d
+                        Position: {X: 0.0, Y: 0.0, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    12bd547df4998f25ce32c4e8dce466ed: !ModelComponent
+                        Id: f34211a3-2f6e-4749-8dd0-d14c7a3c36c9
+                        Model: 0258dae9-057a-4d78-8e45-eab6a6531535:Models/Graveyard/gravestone-bevel
+                        Materials: {}
+                    39e3d4f2ccd7f9e2f6fe99b63e8d0caa: !StaticColliderComponent
+                        Id: e71695b3-cd2c-49c4-9029-fa7b920a4469
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            e0a14960aa6098927e489a3b51ce65fe: !StaticMeshColliderShapeDesc
+                                Model: 0258dae9-057a-4d78-8e45-eab6a6531535:Models/Graveyard/gravestone-bevel
+        -   Entity:
+                Id: 1b698698-ebea-44f2-a29b-2ef2673660aa
+                Name: Point light
+                Components:
+                    e36e6983713d7df4f622cf57d181ba7e: !TransformComponent
+                        Id: a7d009e6-2d09-4aae-84b5-8ed7aaae33ed
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    129299bb943cc8a7854880ce89975b81: !LightComponent
+                        Id: d8573c2f-9610-47de-9e9c-083c37a18d19
+                        Type: !LightPoint
+                            Color: !ColorRgbProvider
+                                Value: {R: 0.7625, G: 0.5966562, B: 0.30499998}
+                            Radius: 2.0
+                            Shadow:
+                                Size: Small
+                                BiasParameters: {}
+                        Intensity: 2.0
+        -   Entity:
+                Id: 1bfe4208-f371-4214-ac8c-e80780118434
+                Name: grave
+                Components:
+                    fc65630323bfffbf33f03779485b0a8b: !TransformComponent
+                        Id: d85337b0-cbb6-4062-b586-79121fcf8666
+                        Position: {X: -0.05, Y: 0.0, Z: 0.25}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4fe9d69cf03eafe855b76a22909695c3: !ModelComponent
+                        Id: 51530b3c-97a1-4ef3-a2b9-f59a6f2b522a
+                        Model: 19fba05b-ee45-46d0-bebc-d0c052ce3729:Models/Graveyard/grave
+                        Materials: {}
+                    7cc735a52ff32ec04ac786a74f10c81c: !StaticColliderComponent
+                        Id: 39efa818-86ea-4fe4-9488-efc0494cbd5f
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            fe048cfc7a7e07b5eb9dd88e17e2dcaf: !StaticMeshColliderShapeDesc
+                                Model: 19fba05b-ee45-46d0-bebc-d0c052ce3729:Models/Graveyard/grave
+        -   Entity:
+                Id: 1fb37626-43a6-470d-9aed-14e062d58dbf
+                Name: grave
+                Components:
+                    573f41eb0f7735831dbf47ba77300ad0: !TransformComponent
+                        Id: eb306e24-e05b-4686-a2e2-b0c455d61e5f
+                        Position: {X: -0.75, Y: 0.0, Z: 0.25}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    f9f5c1e0daee24a0b843f98f293acf9a: !ModelComponent
+                        Id: e8da76a6-cd14-4456-8fd9-29aa2b48c1a9
+                        Model: 19fba05b-ee45-46d0-bebc-d0c052ce3729:Models/Graveyard/grave
+                        Materials: {}
+                    39b31dbbc8f04e98564f1a229c662429: !StaticColliderComponent
+                        Id: 14df9f3c-a61d-40d0-8c54-1c0232a4dceb
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            ae1ab8c4131815222c6e0759e23c36d8: !StaticMeshColliderShapeDesc
+                                Model: 19fba05b-ee45-46d0-bebc-d0c052ce3729:Models/Graveyard/grave
+        -   Entity:
+                Id: 21615e6e-26f7-44bf-8d67-af676b42a9a9
+                Name: iron-fence-border-curve
+                Components:
+                    b99d5f56204fdcf800dea485984849d5: !TransformComponent
+                        Id: 44c882e6-b254-4f06-b0d0-f87a1693aae5
+                        Position: {X: -1.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    68f4151b327dc11315a33de1abe07b72: !ModelComponent
+                        Id: aa7e3061-a1d2-4ad4-b9bb-12bcfdc262c1
+                        Model: 3a16144a-3cfd-4191-ab8e-805af03219f0:Models/Graveyard/iron-fence-border-curve
+                        Materials: {}
+                    8a57ec876718416d45fd9125907cb888: !StaticColliderComponent
+                        Id: 7497ce01-66ee-41f2-ae57-3dcac64d04d5
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            90b11fee7c9fafbc0e2854a5cd0d0f91: !StaticMeshColliderShapeDesc
+                                Model: 3a16144a-3cfd-4191-ab8e-805af03219f0:Models/Graveyard/iron-fence-border-curve
+        -   Entity:
+                Id: 3823b93d-7b07-41c5-840f-5218ea0b968e
+                Name: shovel-dirt
+                Components:
+                    5eece321ef119353c1d4f3a87e6f205e: !TransformComponent
+                        Id: 3283bbe4-1642-426c-b558-70d24c16b9ce
+                        Position: {X: 1.125, Y: 0.0, Z: 0.5}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.75, Y: 0.75, Z: 0.75}
+                        Children: {}
+                    7343a1843edd4dadbb74a434f07b6155: !ModelComponent
+                        Id: a9dc3a1a-4a1b-4f91-87ae-8014528e0d5e
+                        Model: 9c5a2217-7558-4151-8651-e476f62bce59:Models/Graveyard/shovel-dirt
+                        Materials: {}
+                    5a11a1ba2d577de8aeaaad8dea53f2e7: !StaticColliderComponent
+                        Id: 3ae92c7f-da81-4948-9301-f8e74bf35b15
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            3785656a802c50a2539e30eddfa59e2b: !StaticMeshColliderShapeDesc
+                                Model: 9c5a2217-7558-4151-8651-e476f62bce59:Models/Graveyard/shovel-dirt
+        -   Entity:
+                Id: 4e83495c-c519-49bb-8bc2-66a37e9de5eb
+                Name: iron-fence-border-curve
+                Components:
+                    046f29be6c84db5e35c8d3b8389daec9: !StaticColliderComponent
+                        Id: 47579635-7f59-473b-88cf-b89d4345e286
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            90b11fee7c9fafbc0e2854a5cd0d0f91: !StaticMeshColliderShapeDesc
+                                Model: 3a16144a-3cfd-4191-ab8e-805af03219f0:Models/Graveyard/iron-fence-border-curve
+                    b99d5f56204fdcf800dea485984849d5: !TransformComponent
+                        Id: 9b17886b-0f3c-43a0-84ea-fe4d398eae58
+                        Position: {X: -1.0, Y: 0.0, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.70710677, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    68f4151b327dc11315a33de1abe07b72: !ModelComponent
+                        Id: a06fc8ab-1b2b-4a23-a897-5af8ce6ab5ad
+                        Model: 3a16144a-3cfd-4191-ab8e-805af03219f0:Models/Graveyard/iron-fence-border-curve
+                        Materials: {}
+        -   Entity:
+                Id: 53cca44a-7ce9-42b0-99a2-ead3e9b65f30
+                Name: lantern-glass
+                Components:
+                    1e9ef3a242677a06084318263f800093: !TransformComponent
+                        Id: 3fb96135-5910-4d27-89bf-43072e38a224
+                        Position: {X: 0.35, Y: 0.8, Z: -0.45}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            a7d9820d5b4bf8b3023a9e16d15b6a48: ref!! 6c1323c7-675c-48bc-ac64-8fe586da84d8
+                    817b46d31f9dfd824ec6b2c5ad8ced17: !ModelComponent
+                        Id: 1c591a8f-c6d0-4485-8073-81016aa3b609
+                        Model: 9de9b6ae-89b5-46e8-be6a-80d5d7124e38:Models/Graveyard/lantern-glass
+                        Materials: {}
+        -   Entity:
+                Id: 559c599e-18bc-4f0e-8214-6a4176dc6f03
+                Name: iron-fence-border-gate
+                Components:
+                    83b1aa653d6e8261dd17daf7ace061e8: !TransformComponent
+                        Id: 15aaeb59-38f7-42d7-ad07-9f155e214b7a
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    2f5525e79f4aebadd7284073771f2be5: !ModelComponent
+                        Id: ab67e300-465a-4a81-9b3d-4cdcfbc546fb
+                        Model: 51b7c960-2a5a-4f3c-97d4-f5d78c67ba53:Models/Graveyard/iron-fence-border-gate
+                        Materials: {}
+                    355b8413a60b6ceeac8cd1b1f24a4e1a: !StaticColliderComponent
+                        Id: eb309e0c-e84d-4971-8f53-6b7fce7450eb
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            571d6046650273f21bac8c7100a8df4b: !StaticMeshColliderShapeDesc
+                                Model: 51b7c960-2a5a-4f3c-97d4-f5d78c67ba53:Models/Graveyard/iron-fence-border-gate
+        -   Entity:
+                Id: 650a10e9-1cef-48b2-9521-90148a00753d
+                Name: iron-fence-border-curve
+                Components:
+                    b99d5f56204fdcf800dea485984849d5: !TransformComponent
+                        Id: aafdb509-fb65-44d6-8b1f-844bd119841d
+                        Position: {X: 1.0, Y: 0.0, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 1.0, Z: 0.0, W: -4.371139E-08}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    ed5f52b5d1059bb545e57b9461335485: !StaticColliderComponent
+                        Id: 2d7c4a9d-ab06-4274-8eed-b0a003950d1f
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            90b11fee7c9fafbc0e2854a5cd0d0f91: !StaticMeshColliderShapeDesc
+                                Model: 3a16144a-3cfd-4191-ab8e-805af03219f0:Models/Graveyard/iron-fence-border-curve
+                    68f4151b327dc11315a33de1abe07b72: !ModelComponent
+                        Id: 9b38d0aa-15b6-4ba7-a770-79c36c0ef53c
+                        Model: 3a16144a-3cfd-4191-ab8e-805af03219f0:Models/Graveyard/iron-fence-border-curve
+                        Materials: {}
+        -   Entity:
+                Id: 84487bb1-118a-4322-9e88-f44007dd653d
+                Name: gravestone-bevel
+                Components:
+                    dac2fe82328d8c6999efc706b1252083: !TransformComponent
+                        Id: cbfff7e4-12b4-4674-b4b8-0640986fa3ca
+                        Position: {X: -0.75, Y: 0.0, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    de7557152001d7d54d6e256c07c4fe15: !StaticColliderComponent
+                        Id: ac0697d8-0834-47ab-a179-81436e8f16e4
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            e0a14960aa6098927e489a3b51ce65fe: !StaticMeshColliderShapeDesc
+                                Model: 0258dae9-057a-4d78-8e45-eab6a6531535:Models/Graveyard/gravestone-bevel
+                    987d51220ccfbb928438ed4c7e0f83f1: !ModelComponent
+                        Id: 7774df46-43b3-4710-a4d5-e3fb354bbe7c
+                        Model: 0258dae9-057a-4d78-8e45-eab6a6531535:Models/Graveyard/gravestone-bevel
+                        Materials: {}
+        -   Entity:
+                Id: 89b8fe81-868e-4916-9a00-04fa185f42f7
+                Name: lantern-glass
+                Components:
+                    1e9ef3a242677a06084318263f800093: !TransformComponent
+                        Id: 46590c55-e41b-4b59-a5fc-2bb28d40b964
+                        Position: {X: -0.35, Y: 0.8, Z: -0.45}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            6faf8ac054c9d4d06100f30b86e9d09a: ref!! a7d009e6-2d09-4aae-84b5-8ed7aaae33ed
+                    817b46d31f9dfd824ec6b2c5ad8ced17: !ModelComponent
+                        Id: 9e0297e3-353a-4b12-8b7e-a06e8dee5967
+                        Model: 9de9b6ae-89b5-46e8-be6a-80d5d7124e38:Models/Graveyard/lantern-glass
+                        Materials: {}
+        -   Entity:
+                Id: 9e6bc7ed-b474-4b1b-b308-2c3f32d2e476
+                Name: Point light
+                Components:
+                    e36e6983713d7df4f622cf57d181ba7e: !TransformComponent
+                        Id: 6c1323c7-675c-48bc-ac64-8fe586da84d8
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    129299bb943cc8a7854880ce89975b81: !LightComponent
+                        Id: 7555ef04-2712-4599-a59d-d145d2a83430
+                        Type: !LightPoint
+                            Color: !ColorRgbProvider
+                                Value: {R: 0.7625, G: 0.5966562, B: 0.30499998}
+                            Radius: 2.0
+                            Shadow:
+                                Size: Small
+                                BiasParameters: {}
+                        Intensity: 2.0
+        -   Entity:
+                Id: aedb3575-14dd-45b4-a450-61829573b541
+                Name: Gravestone
+                Components:
+                    0174f414c16639f1e2b7e1140a8f1416: !TransformComponent
+                        Id: 6c89db20-cd01-4c6c-91c8-352350aa280a
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            880f6ec6eedb0a5dd4303d24cc78a228: ref!! f268e060-b3b5-4540-b1c7-db26c991e48d
+                            e1289dc4ecf8b0aa293baec3df08599f: ref!! 9a1de4ca-06c7-4602-953a-e5b21b55aa9a
+                            280f2fc50647a9f0e21aa6165cb45da3: ref!! cbfff7e4-12b4-4674-b4b8-0640986fa3ca
+        -   Entity:
+                Id: bed95add-a9df-414a-8bd8-0128e1f3ab58
+                Name: grave-border
+                Components:
+                    327d2e17e6caefc6d4edb85bead9837d: !TransformComponent
+                        Id: 11fd7540-dc34-4c24-90d4-051b68d42de3
+                        Position: {X: 0.75, Y: 0.0, Z: 0.25}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7510e6ae46eec7df51495da37e90074e: !ModelComponent
+                        Id: 4102761b-9fdd-49bd-a73e-7defdfc58961
+                        Model: 4920bd38-14bc-4672-a091-62e20e730476:Models/Graveyard/grave-border
+                        Materials: {}
+                    f557ac8f31f75ad1bef136838c0d4f7c: !StaticColliderComponent
+                        Id: 42fcc8a8-acd2-4fa9-aff9-36a3e6c5f875
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            1ab04a6c24ede9a63a7d9f0c74c02467: !StaticMeshColliderShapeDesc
+                                Model: 4920bd38-14bc-4672-a091-62e20e730476:Models/Graveyard/grave-border
+        -   Entity:
+                Id: c30a25b9-63a9-4dcf-8ef8-a5f19375a901
+                Name: gravestone-broken
+                Components:
+                    3920a1efaa9bd6724bee907e0b2e0023: !TransformComponent
+                        Id: 9a1de4ca-06c7-4602-953a-e5b21b55aa9a
+                        Position: {X: 0.75, Y: 0.0, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    5221f1228ef7cf97a5b39e74e668ea20: !ModelComponent
+                        Id: e61edc5f-d285-4b78-a3e0-780711b959ba
+                        Model: 1a3f97f7-3ba0-488a-ae60-604ecf911538:Models/Graveyard/gravestone-broken
+                        Materials: {}
+                    d9f8051843d3964ac4a9a65d6b205177: !StaticColliderComponent
+                        Id: 8e785072-0d4d-4436-be98-2994a4da78bb
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            3d9663e74bff2d86d9f5613fa649e6d9: !StaticMeshColliderShapeDesc
+                                Model: 1a3f97f7-3ba0-488a-ae60-604ecf911538:Models/Graveyard/gravestone-broken
+        -   Entity:
+                Id: ca5681f1-3b84-4502-84e8-aabe3427b3ef
+                Name: Border
+                Components:
+                    5e0dcd96ea575fb665bde62fd3b5f409: !TransformComponent
+                        Id: a085b1b7-9486-4f4d-a9cb-92502310a21e
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            c74cdd94f07e9222115df52ca077313a: ref!! 4ab1d4a8-6a9c-4424-b78d-29aac8d88fc8
+                            ab5a5ae0bf61cc380995855f5dd34923: ref!! 15aaeb59-38f7-42d7-ad07-9f155e214b7a
+                            dd8c85ffe73a29242362b85db7894492: ref!! 9b17886b-0f3c-43a0-84ea-fe4d398eae58
+                            2b17eb59a6002e5299146fa0e13ae7ab: ref!! aafdb509-fb65-44d6-8b1f-844bd119841d
+                            f1d9928ab8e15a761e4a5c994592f024: ref!! 6bf388d9-c89a-4f90-a340-cc28b3c5e680
+                            ba33df097a8d29eeaa7487560865aaab: ref!! 44c882e6-b254-4f06-b0d0-f87a1693aae5
+        -   Entity:
+                Id: cfd87982-b52e-472f-b071-60b29c2b949d
+                Name: Lantern-Glass
+                Components:
+                    02ebdaac23a1488f2cd4c2b8c8b970ea: !TransformComponent
+                        Id: 52c95fb0-7644-406d-8ee4-5783476d818b
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            f199bdca986abd07fb4fd2bd91d399f8: ref!! 46590c55-e41b-4b59-a5fc-2bb28d40b964
+                            b51e4d961f74c141df08dacd4cc985f8: ref!! 3fb96135-5910-4d27-89bf-43072e38a224
+        -   Entity:
+                Id: e70add21-2c6a-472b-b23d-513793bae0e9
+                Name: iron-fence-border-curve
+                Components:
+                    b99d5f56204fdcf800dea485984849d5: !TransformComponent
+                        Id: 6bf388d9-c89a-4f90-a340-cc28b3c5e680
+                        Position: {X: 1.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: -0.0, Y: -0.70710677, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    65f670fb571a9719c8fc10f86ab5552c: !StaticColliderComponent
+                        Id: ed184039-2479-4dc4-8e01-feb06b70b738
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            90b11fee7c9fafbc0e2854a5cd0d0f91: !StaticMeshColliderShapeDesc
+                                Model: 3a16144a-3cfd-4191-ab8e-805af03219f0:Models/Graveyard/iron-fence-border-curve
+                    68f4151b327dc11315a33de1abe07b72: !ModelComponent
+                        Id: 918ec2cf-5f30-4cab-baf4-df532932cf2f
+                        Model: 3a16144a-3cfd-4191-ab8e-805af03219f0:Models/Graveyard/iron-fence-border-curve
+                        Materials: {}
+        -   Entity:
+                Id: e86e9b99-3767-4201-8d99-5c6c9bc6b6e3
+                Name: iron-fence-border
+                Components:
+                    3b7b8d3475cf58444a62774eb8a462bf: !TransformComponent
+                        Id: 4ab1d4a8-6a9c-4424-b78d-29aac8d88fc8
+                        Position: {X: 0.0, Y: 0.0, Z: 1.9}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    f5115fe7e62082ee26f65e6a16868a07: !ModelComponent
+                        Id: bf04c610-c4fd-485a-89f2-e1e507064130
+                        Model: 4df457a8-3658-4164-ae44-8a829b9ccf6d:Models/Graveyard/iron-fence-border
+                        Materials: {}
+                    ecb1a303bb80c04c61e594df65042abf: !StaticColliderComponent
+                        Id: d18226ec-4aa4-4e90-bc81-42e844c85740
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            80adaa296b427f15f8730e2029c58683: !StaticMeshColliderShapeDesc
+                                Model: 4df457a8-3658-4164-ae44-8a829b9ccf6d:Models/Graveyard/iron-fence-border

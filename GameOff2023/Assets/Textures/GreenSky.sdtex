@@ -1,0 +1,8 @@
+!Texture
+Id: 46faefeb-6990-4ba1-a338-bca2f1e65e61
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/Textures/GreenSky.png
+Type: !ColorTextureType
+    UseSRgbSampling: false
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

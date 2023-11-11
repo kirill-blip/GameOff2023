@@ -1,0 +1,15 @@
+!Model
+Id: 0258dae9-057a-4d78-8e45-eab6a6531535
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/gravestone-bevel.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    6bf138f97abcdd71f1ef1a87751e2a5a:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    3b041d430c65548d8004ae21e9a64b9d~../../../Resources/Models/Graveyard/gravestone-bevel.fbx: 96075443a895327d3a95cd8b86ab5fbd

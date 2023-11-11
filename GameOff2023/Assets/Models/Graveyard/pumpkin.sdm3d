@@ -1,0 +1,15 @@
+!Model
+Id: f2351610-84c3-478c-872a-047ce57c5967
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/pumpkin.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    492530aa6ecb179ddb361e0a3f290336:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    38aca194c3d15735c9fb8f1762b7aaba~../../../Resources/Models/Graveyard/pumpkin.fbx: 2ece3a88929677c6d8c193e5b55eeac0

@@ -1,0 +1,15 @@
+!Model
+Id: 9de9b6ae-89b5-46e8-be6a-80d5d7124e38
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/lantern-glass.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    fd85f7ad0599d92c0e38e752c3dad31c:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    cbf89299b2f3323b476b64e4a220781f~../../../Resources/Models/Graveyard/lantern-glass.fbx: 0fff0568771fab3395d6afd02cb3bef6

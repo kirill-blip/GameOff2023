@@ -1,0 +1,15 @@
+!Model
+Id: cb572a1e-b28b-4553-b960-e136234fddc9
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/fence-gate.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    b2382f9d6a6f7efb2ea2247baf3a27c4:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    36ab917960951ce53317ec01f5448a95~../../../Resources/Models/Graveyard/fence-gate.fbx: 24b62e32ab68f63ba2989c09e5512a2a

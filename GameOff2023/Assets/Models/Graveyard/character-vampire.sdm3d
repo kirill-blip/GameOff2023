@@ -1,0 +1,15 @@
+!Model
+Id: caa13cf6-9075-4f78-934c-dc02bc392bff
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/character-vampire.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    4d28a7f5d4fa631e1c07a994c0f4d14b:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    23e256c222d434ab16ddc986e73f159a~../../../Resources/Models/Graveyard/character-vampire.fbx: 7325b5100e0729dccb78f9fbf9673dfe

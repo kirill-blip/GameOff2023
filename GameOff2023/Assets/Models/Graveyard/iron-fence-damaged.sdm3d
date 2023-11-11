@@ -1,0 +1,15 @@
+!Model
+Id: 6a3c0d91-2949-4618-8e72-8eacd502966a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/iron-fence-damaged.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    bb804abd27ee681270f2de10675d08b8:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    b81214960c18f21a8d973f94cfcd828c~../../../Resources/Models/Graveyard/iron-fence-damaged.fbx: 1218d19a883ccf0efafb2cb77b8dd77c

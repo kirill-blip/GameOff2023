@@ -1,0 +1,15 @@
+!Model
+Id: 184cd9d1-78c1-4977-8f59-00ac0c45bf41
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/detail-plate.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    752aee856276d154739479d4f7a08c98:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    25123c4b818f8f13c0e4d84092f5fbfe~../../../Resources/Models/Graveyard/detail-plate.fbx: 0e72d0f3237fcade95182280481d1201

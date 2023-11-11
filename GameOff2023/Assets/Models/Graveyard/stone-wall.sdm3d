@@ -1,0 +1,15 @@
+!Model
+Id: ecb12719-0def-458f-813f-5a0254cfcbe0
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/stone-wall.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    11f4cbd76d94043018720a7b06ebea72:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    ff37e1897ea373db5c0250f8e06f6363~../../../Resources/Models/Graveyard/stone-wall.fbx: 6cf07b7db557598a19a7c246f60eb389

@@ -1,0 +1,15 @@
+!Model
+Id: bccdea9c-3b66-420f-98a8-18cb60c5b45c
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/Models/uziGoldLongSilencer.obj
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    341d9ac3b6c58582e24483523b0f8ef6:
+        Name: Gray8
+        MaterialInstance:
+            Material: 5e102d2d-4691-42f9-8b36-b5452c2742cf:Models/Gray8
+Modifiers: {}
+~SourceHashes:
+    bede43468c559cc16bfefe889c6fc6fb~../../Resources/Models/uziGoldLongSilencer.obj: 3ef710fd15c8d2a58b1acab790964947

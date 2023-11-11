@@ -1,0 +1,15 @@
+!Model
+Id: ae03e7a2-88c2-4620-b83d-886864678e05
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/character-ghost.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    28b2c6d2f7b8116d987044c403b64934:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    0ba19fc3e8312bf029e0e2f89a53e515~../../../Resources/Models/Graveyard/character-ghost.fbx: c38895b8663c0cae3dacb8495f8a7306

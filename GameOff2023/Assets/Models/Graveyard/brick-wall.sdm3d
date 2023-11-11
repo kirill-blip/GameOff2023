@@ -1,0 +1,15 @@
+!Model
+Id: 6a37335e-f4f9-48e0-bb61-d99104ac7a3c
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/brick-wall.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    133cf9e99d4b3324db0790c15a8d483e:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    2a5eefd23fe31565d87f14690642c30e~../../../Resources/Models/Graveyard/brick-wall.fbx: d153863b1fa3e164d5876fbd0b1e78f2

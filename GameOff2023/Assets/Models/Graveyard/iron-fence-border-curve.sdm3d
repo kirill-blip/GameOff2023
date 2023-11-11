@@ -1,0 +1,15 @@
+!Model
+Id: 3a16144a-3cfd-4191-ab8e-805af03219f0
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/iron-fence-border-curve.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    f0f6a54ae47c95c0e12e20e6666d05e7:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    442ab655f8ce31ff1ea4bc79820a8130~../../../Resources/Models/Graveyard/iron-fence-border-curve.fbx: 8889c334bd1c01ab19c85ba3ccd7e2c2

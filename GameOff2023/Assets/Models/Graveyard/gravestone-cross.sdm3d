@@ -1,0 +1,15 @@
+!Model
+Id: 5d75febf-d3f0-4724-a410-4031b3c58fd9
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/gravestone-cross.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    da197ee47f613c1b6648bbbaf9dead86:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    ca3267cfc9813a56e363f5b52ebb0dbe~../../../Resources/Models/Graveyard/gravestone-cross.fbx: 71de0cef381714c027b920657f13821b

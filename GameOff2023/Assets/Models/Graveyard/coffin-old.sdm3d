@@ -1,0 +1,15 @@
+!Model
+Id: d573e796-8017-4b04-8ca7-b8bed9d7df00
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/coffin-old.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    6998914d24fd181db3fa1a56c81735f5:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    672a7a0abe6368504d54845c8fb701b6~../../../Resources/Models/Graveyard/coffin-old.fbx: 1b6bef023a648600dd5d5aabe2ec0d0a

@@ -1,0 +1,15 @@
+!Model
+Id: 819f9200-0c87-4d7a-8431-c74b20acca97
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/pumpkin-tall.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    5ded62eb96a62f8aa2432467d998501c:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    5ae1dfd8c8b3cffa7868337881ffb5f9~../../../Resources/Models/Graveyard/pumpkin-tall.fbx: 27ad7da6e0f8cf795af38a8e8a137fe8

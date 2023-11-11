@@ -1,0 +1,15 @@
+!Model
+Id: be4e591e-8923-4e67-aa97-fc486d77dd35
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/pine.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    178e2525b0e0b9a4ca087440a9106a2b:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    99b7f14d52aa7b4a441db8a17c273687~../../../Resources/Models/Graveyard/pine.fbx: fc0fbaeda563e14e2ff31d9a2cbe0c2b

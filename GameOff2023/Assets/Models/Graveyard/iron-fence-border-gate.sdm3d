@@ -1,0 +1,15 @@
+!Model
+Id: 51b7c960-2a5a-4f3c-97d4-f5d78c67ba53
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/iron-fence-border-gate.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    634bc658edc0c21a0c990c3dfaba3d97:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    74d1b513426dbc2df84a0235c754eb7a~../../../Resources/Models/Graveyard/iron-fence-border-gate.fbx: 1a16c43b3c16e5124ca7f278d736dece

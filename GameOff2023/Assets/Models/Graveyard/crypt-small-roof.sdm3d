@@ -1,0 +1,15 @@
+!Model
+Id: 845e0cfd-4813-40c9-bcb7-5928a9a79511
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/crypt-small-roof.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    2fc652ee67f3b6ce4c0f11539cdb54fe:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    c4eb4dbcedcb0ff59186c1b6a8bbbfdd~../../../Resources/Models/Graveyard/crypt-small-roof.fbx: e3a3dde63d7438c66f6f9ed03d024c4c

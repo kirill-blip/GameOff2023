@@ -1,0 +1,15 @@
+!Model
+Id: 61e28239-17b7-4b1d-9537-383beb3511be
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/detail-bowl.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    c8c2105d324ef4df09fcfabee9f0d7ec:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    4ebd1ac862336a5ce66d9659b1731974~../../../Resources/Models/Graveyard/detail-bowl.fbx: 8c8d46e22190e6332e272e4719c25d66

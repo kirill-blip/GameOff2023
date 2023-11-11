@@ -1,0 +1,15 @@
+!Model
+Id: cf70b22c-a53e-467f-8e0b-4fdebbd9e4ca
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/pumpkin-tall-carved.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    b25aa05e3601e73d9e6838e687490939:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    f987d17a22b00d73e667dabf96a6faa8~../../../Resources/Models/Graveyard/pumpkin-tall-carved.fbx: 771befa5e01c8a6d805ddf310f190838

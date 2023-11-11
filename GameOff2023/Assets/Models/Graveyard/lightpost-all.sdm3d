@@ -1,0 +1,15 @@
+!Model
+Id: 3bb960fc-fcd3-494a-96b3-12da4db74920
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/lightpost-all.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    133e29464fa876fdeb92a7afe42d9f8a:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    3a1e83caf61581dc9151b8b74a41f5d3~../../../Resources/Models/Graveyard/lightpost-all.fbx: 4e11f9596c65f08891411166a793bd78

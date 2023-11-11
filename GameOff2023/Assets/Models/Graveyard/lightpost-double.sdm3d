@@ -1,0 +1,15 @@
+!Model
+Id: e1559e37-3bcc-4085-969e-78ca98a43dab
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/lightpost-double.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    dcd1da8387bc703243edfb2752352f2b:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    f1a768ab0d037ff5c5c5ece2b5aa6db7~../../../Resources/Models/Graveyard/lightpost-double.fbx: 71e519282598dd6c9de67ece1c5c432d

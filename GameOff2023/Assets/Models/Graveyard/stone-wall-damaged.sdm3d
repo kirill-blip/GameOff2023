@@ -1,0 +1,15 @@
+!Model
+Id: aefeeda2-b1c5-400d-bec5-ca7dd419a01b
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/stone-wall-damaged.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    4abcee05758f45384e415aebf53af9e2:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    6054feb03148bc96743ce50e5f49c68f~../../../Resources/Models/Graveyard/stone-wall-damaged.fbx: ce391cc57a31922bb3da31e3ae04334f

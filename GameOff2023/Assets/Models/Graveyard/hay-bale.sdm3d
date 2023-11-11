@@ -1,0 +1,15 @@
+!Model
+Id: ed7569a1-bd8c-4cae-b9a1-100d7bf1eac4
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/hay-bale.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    d58ff2039042f58e60b54292e48cac9f:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    dbfd76fca8688132a16b8adeb0a93b94~../../../Resources/Models/Graveyard/hay-bale.fbx: 8e1d4dc56d2fca9c6e9db6c10b30f799

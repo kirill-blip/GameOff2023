@@ -1,0 +1,15 @@
+!Model
+Id: e9772978-db45-4900-8b1d-20ee6c5dc85b
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/pillar-small.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    e0547600b5ad2aee8b45333c9141be36:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    70f70d6438fe1d81b88a660f9f1d2452~../../../Resources/Models/Graveyard/pillar-small.fbx: 16b44c80042d53d90fd0c27857a8d69a

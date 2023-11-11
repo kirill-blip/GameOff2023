@@ -1,0 +1,15 @@
+!Model
+Id: 25ae486c-f51f-465c-999e-70b7af93dd6e
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/gravestone-decorative.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    65496f9d5ab29fe69af862a44832267d:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    5dd11b92fdd7c8862ae08a1510e9ad33~../../../Resources/Models/Graveyard/gravestone-decorative.fbx: f862703cd76ed57c282b1e4ef952f2b2

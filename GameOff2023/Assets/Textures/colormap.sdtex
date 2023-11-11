@@ -1,0 +1,8 @@
+!Texture
+Id: 96c87975-2470-42ad-b3a4-b1e96a7aa110
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../../../../Downloads/kenney_graveyard-kit/Models/FBX format/Textures/colormap.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

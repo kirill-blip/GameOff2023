@@ -1,0 +1,15 @@
+!Model
+Id: 663a83c1-4177-4a52-8020-8b564bb477ff
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/character-skeleton.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    2e55e9a8df77278fd073ef938019f355:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    5b79d0838177bd9ab42375984e07cb8e~../../../Resources/Models/Graveyard/character-skeleton.fbx: 425bcd82406c997f4e33d03d37929e78

@@ -1,0 +1,15 @@
+!Model
+Id: abe7fdbe-5d16-4906-b706-e5c08e0ab10b
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/shovel.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    509fa755695f1c724078335ce301c426:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    343c0ad9c0069c14e5a812ab0c96cc66~../../../Resources/Models/Graveyard/shovel.fbx: 6934930cd9d0c62b62a0d16449bdbfb7

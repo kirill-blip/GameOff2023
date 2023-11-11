@@ -1,0 +1,15 @@
+!Model
+Id: 5f30aecc-adbf-4e3a-aaba-93454ca45745
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/pumpkin-carved.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    5ad3e01c9e89bc63330a0d149d4ae8da:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    ed659f12a987ec600a70e33b9cd13990~../../../Resources/Models/Graveyard/pumpkin-carved.fbx: 63ce3560c739843076017d6d5c396553

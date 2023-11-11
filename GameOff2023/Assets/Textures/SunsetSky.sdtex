@@ -1,0 +1,8 @@
+!Texture
+Id: d1f42241-9541-43c7-9050-00294e424bb8
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/Textures/SunsetSky.png
+Type: !ColorTextureType
+    UseSRgbSampling: false
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

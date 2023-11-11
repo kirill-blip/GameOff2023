@@ -1,0 +1,15 @@
+!Model
+Id: 040f9c5b-8274-44f5-aab6-854e8b5f757d
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/trunk-long.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    c80381201889ab549ca7b8d059cc56f2:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    2718cdcc524b74a9d68f093aaf48eb84~../../../Resources/Models/Graveyard/trunk-long.fbx: a19b1148bb6c6a7c5081cad6df98463e

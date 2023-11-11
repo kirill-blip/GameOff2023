@@ -1,0 +1,15 @@
+!Model
+Id: d12512d5-857b-479a-93b1-758f8efa9ab0
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/gravestone-flat.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    1fb37a4383abbc5b89ac81cc0a21d18d:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    f087d366700d1678f1b223dab9c3d8ec~../../../Resources/Models/Graveyard/gravestone-flat.fbx: 3057d9b669ab2aa34b9477587f7f9fdc

@@ -1,0 +1,15 @@
+!Model
+Id: 68c06511-cca6-403f-8461-c2dab688efec
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/fence.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    8969adfa5ac35ea5193993acb30d469f:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    1fa7ec9be6484475f8cdd2d1bc0b7f79~../../../Resources/Models/Graveyard/fence.fbx: d89b1c4a3cbecca0cf16745e189047b1

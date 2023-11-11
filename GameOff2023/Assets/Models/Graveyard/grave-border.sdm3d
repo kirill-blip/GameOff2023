@@ -1,0 +1,15 @@
+!Model
+Id: 4920bd38-14bc-4672-a091-62e20e730476
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/grave-border.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    91ee581113eaae8ae8fef08461ad4a51:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    20f89c4b38ee54d5fa5f9626a9e4b9ab~../../../Resources/Models/Graveyard/grave-border.fbx: 040af734bc4b16a8b5046d64045b9c8c

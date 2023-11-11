@@ -1,0 +1,15 @@
+!Model
+Id: f3db5f58-eb63-45e5-b99b-ad9219b9925e
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/pine-crooked.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    3089c8102c303aef46ab4bfdeb7eacb1:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    ccfe3ecbc1af59d0cffee2323c44efe5~../../../Resources/Models/Graveyard/pine-crooked.fbx: 1ff7f7f8d8e654a540ee26cd0936bd39

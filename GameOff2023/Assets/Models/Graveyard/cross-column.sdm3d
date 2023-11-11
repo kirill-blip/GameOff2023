@@ -1,0 +1,15 @@
+!Model
+Id: a353b54e-0120-4faa-858e-015aaafa95d8
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/cross-column.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    8c29b0222d427de0da2b461c27b1e304:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    1e6a19cc2dd43c2bd02074cb689593f6~../../../Resources/Models/Graveyard/cross-column.fbx: e71fae595f76197435ae23e3e26088bf

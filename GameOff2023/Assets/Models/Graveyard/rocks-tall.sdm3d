@@ -1,0 +1,15 @@
+!Model
+Id: 7530b627-2a94-4779-947f-3bd114e6f457
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/rocks-tall.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    115cc7344714a251dea70b887eb31a23:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    dbe85e6dcf25a03e83f99373c2d6a868~../../../Resources/Models/Graveyard/rocks-tall.fbx: 0c4c07c966e260582592136884a23717

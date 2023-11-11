@@ -1,0 +1,15 @@
+!Model
+Id: 3c111728-895b-43ed-bff6-61d9e35ca4c2
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/brick-wall-end.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    16dac594392321380b2ae78242f79c35:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    f9ed6be8d5cf8fea1826f9b931950b8c~../../../Resources/Models/Graveyard/brick-wall-end.fbx: 59fbd08f49bbe2d8ae5619019c5cf883

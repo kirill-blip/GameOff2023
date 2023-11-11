@@ -1,0 +1,15 @@
+!Model
+Id: 7233942f-3401-41f7-9a4e-617d53f5516f
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/altar-wood.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    b1bf21ccfab6ef6ef05c47a8a7483fa1:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    183631a02af94fd1e9838f42a990b54c~../../../Resources/Models/Graveyard/altar-wood.fbx: b7ef40a599243c50a584f0e9402bba62

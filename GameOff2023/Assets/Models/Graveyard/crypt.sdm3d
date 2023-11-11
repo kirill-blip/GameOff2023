@@ -1,0 +1,15 @@
+!Model
+Id: 18ea1757-ab79-46e8-a7f0-c243f314bc26
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/crypt.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    dc3375a540171e0f2d50acfb1fffba81:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    2c6f1723e76f4bdc9dcf13229e8a08f1~../../../Resources/Models/Graveyard/crypt.fbx: ef218d10b383645252c4c4177ed3e2a8

@@ -1,0 +1,15 @@
+!Model
+Id: 7ded3425-86eb-4e8c-be11-b13c0e8ccc39
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/pillar-obelisk.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    7c743e81e0850b5b159e31f337862d98:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    961ae3c54defe993f7fbb20fd8e94bdb~../../../Resources/Models/Graveyard/pillar-obelisk.fbx: 7e8b6553438b1f95e9a94afdcb1136e8

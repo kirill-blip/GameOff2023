@@ -1,0 +1,15 @@
+!Model
+Id: a87fe0a1-ffee-4d4e-ad8f-88487d06e5b4
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/gravestone-roof.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    f2f6993d91a07aba4bc6ab96f7865cbd:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    61676f9d258f6f67e78ae655d9563a98~../../../Resources/Models/Graveyard/gravestone-roof.fbx: 3be62ad87fc42fd77de072982151948e

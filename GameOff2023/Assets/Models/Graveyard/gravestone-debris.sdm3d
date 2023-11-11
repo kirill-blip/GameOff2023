@@ -1,0 +1,15 @@
+!Model
+Id: 27b80e8b-fb3f-4107-a36b-2b1c5503ba38
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Graveyard/gravestone-debris.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    166a0dccb10afd9081f450ced33e9d72:
+        Name: colormap
+        MaterialInstance:
+            Material: 4d804c93-a2b6-4157-8203-1bdd82966b34:Materials/Colormap
+Modifiers: {}
+~SourceHashes:
+    a5e205548945cab5f0f8b5c98eb6f79f~../../../Resources/Models/Graveyard/gravestone-debris.fbx: 57e547d342c253b94010760af5764fdf
