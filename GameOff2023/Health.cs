@@ -1,26 +1,46 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Stride.Core.Mathematics;
-using Stride.Input;
+﻿using Stride.Core.Mathematics;
 using Stride.Engine;
+using System;
 
 namespace GameOff2023
 {
-    public class Health : SyncScript
+    public class Health : StartupScript
     {
-        // Declared public member fields and properties will show in the game studio
+        public int HitPoints = 100;
 
-        public override void Start()
+        public Entity CameraPosition;
+        public Entity Camera;
+        public Entity Weapon;
+
+        public event EventHandler<int> OnHealthChanged;
+        public event EventHandler OnPlayerKilled;
+
+        public override void Start() { }
+
+        public void Damage(int damage)
         {
-            // Initialization of the script.
+            if (damage <= 0) Log.Error("Damage can't be negative");
+
+            HitPoints -= damage;
+
+            OnHealthChanged?.Invoke(this, HitPoints);
+
+            if (HitPoints <= 0)
+            {
+                Kill();
+            }
         }
 
-        public override void Update()
+        private void Kill()
         {
-            // Do stuff every new frame
+            Camera.SetParent(CameraPosition);
+            Camera.Transform.Position = Vector3.Zero;
+
+            Entity.Scene.Entities.Remove(this.Entity);
+
+            Weapon.EnableAll(false, true);
+
+            OnPlayerKilled?.Invoke(this, null);
         }
     }
 }

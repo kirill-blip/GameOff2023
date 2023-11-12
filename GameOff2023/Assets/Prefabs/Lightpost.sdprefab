@@ -1,0 +1,43 @@
+!PrefabAsset
+Id: 28ee1a92-2644-4448-b4da-160952960ace
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 9d32dc79-f602-45df-a14d-087930e3e1a5
+        - ref!! 0c7e412d-df76-43a0-b6e4-f5aa12e0f245
+    Parts:
+        -   Entity:
+                Id: 0c7e412d-df76-43a0-b6e4-f5aa12e0f245
+                Name: Point light
+                Components:
+                    7fca5703fe6adf3d04a654704c1f12d7: !TransformComponent
+                        Id: a3c6cee4-53cd-44db-b993-c2db1f9c2f06
+                        Position: {X: 0.0, Y: 1.6573021, Z: 0.34008366}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    1833f68b1fe2be61403ded986939ecf8: !LightComponent
+                        Id: 6a3742a4-a514-4c2c-a381-50aaaa2e6b8c
+                        Type: !LightPoint
+                            Color: !ColorRgbProvider
+                                Value: {R: 0.7375, G: 0.5904033, B: 0.22585936}
+                            Radius: 5.0
+                            Shadow:
+                                Size: Small
+                                BiasParameters: {}
+                        Intensity: 6.0
+        -   Entity:
+                Id: 9d32dc79-f602-45df-a14d-087930e3e1a5
+                Name: Lightpost-Single
+                Components:
+                    d999655c23953720857b7949ef5d9ecc: !TransformComponent
+                        Id: 4672ae79-f3c7-4638-ad84-32d0e2caa029
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.5, Y: 1.5, Z: 1.5}
+                        Children: {}
+                    145cacdf29da93e26989aad4e2bafd00: !ModelComponent
+                        Id: 9d3e5bea-d628-4134-a2b0-f2b464765129
+                        Model: 6b25aae7-b8cc-491c-aaaf-3953a4a42ca3:Models/Graveyard/lightpost-single
+                        Materials: {}

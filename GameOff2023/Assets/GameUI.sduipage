@@ -15,9 +15,28 @@ Hierarchy:
                 Margin: {}
                 Children:
                     0ec381a5d05ba2362cd7d82d581ab396: !ImageElement ref!! e6f31e53-83e6-4c85-8888-07328c8f394c
+                    a10fe1b40e399c2b912a91293556689d: !TextBlock ref!! 635d789f-2f2b-4246-812f-f2a8001d2ddc
                 RowDefinitions: {}
                 ColumnDefinitions: {}
                 LayerDefinitions: {}
+        -   UIElement: !TextBlock
+                Id: 635d789f-2f2b-4246-812f-f2a8001d2ddc
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 75.0
+                Height: 25.0
+                HorizontalAlignment: Right
+                VerticalAlignment: Bottom
+                Margin: {Right: 10.0, Bottom: 10.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: HealthText
+                Text: 100
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 25.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                TextAlignment: Center
         -   UIElement: !ImageElement
                 Id: e6f31e53-83e6-4c85-8888-07328c8f394c
                 DependencyProperties: {}

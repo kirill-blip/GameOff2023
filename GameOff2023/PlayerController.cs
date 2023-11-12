@@ -11,6 +11,8 @@ namespace GameOff2023
         public float Velocity { get; set; } = 5;
         public float JumpForce { get; set; } = 5;
 
+        public Health Health;
+
         private CharacterComponent _character;
 
         public override void Start()

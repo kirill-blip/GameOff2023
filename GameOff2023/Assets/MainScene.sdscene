@@ -12,45 +12,10 @@ Hierarchy:
         - ref!! 26211595-4739-4390-b1e1-23def69bfc81
         - ref!! 38d9d050-df83-4685-a352-48395d35ad62
         - ref!! 04d58e9b-93ee-4c5d-a99f-4de59e092b77
-        - ref!! 356a2ea8-a8d0-4030-81c9-5a62000d69ae
         - ref!! 1d922ad9-fd4e-49a4-9d28-8a1bdc98c40d
         - ref!! e7ba417c-6b26-4de1-b7c9-7efd70d13a6b
+        - ref!! 9d97632b-009c-4e6b-b6e3-a8c3941bdbb8
     Parts:
-        -   Entity:
-                Id: 004b5577-8d8c-4633-8530-8aa6f758e0e1
-                Name: Lightpost-Single
-                Components:
-                    d999655c23953720857b7949ef5d9ecc: !TransformComponent
-                        Id: e59e5ef4-fefe-4a19-9798-b03097d5479e
-                        Position: {X: 1.5, Y: 0.0, Z: -3.0}
-                        Rotation: {X: 0.0, Y: -0.70710677, Z: 0.0, W: 0.70710677}
-                        Scale: {X: 1.5, Y: 1.5, Z: 1.5}
-                        Children:
-                            b4d2e566565c5826812d7cec2085fdfd: ref!! b8f7e51b-130a-4b92-a392-7fd2bfde45cc
-                    145cacdf29da93e26989aad4e2bafd00: !ModelComponent
-                        Id: 156b5b26-fe1d-4cf0-95e8-9d3ff69f3bc9
-                        Model: 6b25aae7-b8cc-491c-aaaf-3953a4a42ca3:Models/Graveyard/lightpost-single
-                        Materials: {}
-        -   Entity:
-                Id: 00995db3-130f-48f6-9b1f-2e115c4e4598
-                Name: Point light
-                Components:
-                    7fca5703fe6adf3d04a654704c1f12d7: !TransformComponent
-                        Id: ed21fb5f-c180-4d74-b9a6-ec8e60ee81d4
-                        Position: {X: 0.0, Y: 1.0, Z: 0.22105384}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    1833f68b1fe2be61403ded986939ecf8: !LightComponent
-                        Id: 510868e1-4b87-4c2c-b256-83b9e31c06dd
-                        Type: !LightPoint
-                            Color: !ColorRgbProvider
-                                Value: {R: 0.7375, G: 0.5904033, B: 0.22585936}
-                            Radius: 5.0
-                            Shadow:
-                                Size: Small
-                                BiasParameters: {}
-                        Intensity: 6.0
         -   Entity:
                 Id: 029a0d38-21d6-46d2-97e7-d941f267ca71
                 Name: Wall
@@ -138,37 +103,6 @@ Hierarchy:
                 BasePartAsset: a4a6f7f7-edf3-4396-8065-2e7d572c645d:Prefabs/Grave 1
                 BasePartId: f3b446a9-4747-47bc-9734-e05ee1710050
                 InstanceId: a28eca4d-e93a-4f05-b5f9-ff08fbea0f4a
-        -   Folder: null
-            Entity:
-                Id: 0758c550-26fc-454f-8ddb-592296562ab1
-                Name: Lightpost-Single
-                Components:
-                    d999655c23953720857b7949ef5d9ecc: !TransformComponent
-                        Id: ea22c01b-3da5-48ac-886e-7f7d95e5f88f
-                        Position: {X: -1.5, Y: 0.0, Z: -9.0}
-                        Rotation: {X: 0.0, Y: 0.70710677, Z: 0.0, W: 0.70710677}
-                        Scale: {X: 1.5, Y: 1.5, Z: 1.5}
-                        Children:
-                            b4d2e566565c5826812d7cec2085fdfd: ref!! ed21fb5f-c180-4d74-b9a6-ec8e60ee81d4
-                    145cacdf29da93e26989aad4e2bafd00: !ModelComponent
-                        Id: 7159f407-2332-436d-8c43-cc837d7d6890
-                        Model: 6b25aae7-b8cc-491c-aaaf-3953a4a42ca3:Models/Graveyard/lightpost-single
-                        Materials: {}
-        -   Entity:
-                Id: 075ea318-e97a-45ad-876b-a3736ff855c9
-                Name: Lightpost-Single
-                Components:
-                    d999655c23953720857b7949ef5d9ecc: !TransformComponent
-                        Id: c364f54b-581f-4477-84b1-adb221b99e12
-                        Position: {X: 1.5, Y: 0.0, Z: 0.0}
-                        Rotation: {X: 0.0, Y: -0.70710677, Z: 0.0, W: 0.70710677}
-                        Scale: {X: 1.5, Y: 1.5, Z: 1.5}
-                        Children:
-                            b4d2e566565c5826812d7cec2085fdfd: ref!! 8deed8f0-2700-41a8-bb23-d9bd4529fade
-                    145cacdf29da93e26989aad4e2bafd00: !ModelComponent
-                        Id: 6ebf6ea7-099e-4cbd-9a49-70a466500e17
-                        Model: 6b25aae7-b8cc-491c-aaaf-3953a4a42ca3:Models/Graveyard/lightpost-single
-                        Materials: {}
         -   Entity:
                 Id: 0a3277e9-b4cd-4975-a84c-8bd76079da0a
                 Name: stone-wall-column
@@ -227,26 +161,6 @@ Hierarchy:
                 BasePartAsset: b77d21d4-ea19-407b-88c1-3ad7b509ac32:Prefabs/Grave
                 BasePartId: 559c599e-18bc-4f0e-8214-6a4176dc6f03
                 InstanceId: 4e51487d-f44a-4489-923d-5c8fba3efbfb
-        -   Entity:
-                Id: 0ba1de8e-0b2f-41d9-81f7-a8618baafe70
-                Name: Point light
-                Components:
-                    7fca5703fe6adf3d04a654704c1f12d7: !TransformComponent
-                        Id: b4fca4e0-b9e7-4681-8560-1a858046abdb
-                        Position: {X: 0.0, Y: 1.0, Z: 0.22105384}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    1833f68b1fe2be61403ded986939ecf8: !LightComponent
-                        Id: e36f3fdc-1aad-45ca-bf23-fbacd5987a61
-                        Type: !LightPoint
-                            Color: !ColorRgbProvider
-                                Value: {R: 0.7375, G: 0.5904033, B: 0.22585936}
-                            Radius: 5.0
-                            Shadow:
-                                Size: Small
-                                BiasParameters: {}
-                        Intensity: 6.0
         -   Folder: null
             Entity:
                 Id: 0ed38aea-6057-49a2-b0a5-9f94e7be528b
@@ -331,86 +245,6 @@ Hierarchy:
                         ColliderShapes:
                             6954725ddbd8bfe48fa19ec38b240bd3: !StaticMeshColliderShapeDesc
                                 Model: 35235bc0-24b5-4ae3-b353-5a1bdd66d944:Models/Graveyard/stone-wall-column
-        -   Entity:
-                Id: 136be0e4-c80f-4dc1-859c-fe9e24014c35
-                Name: Point light
-                Components:
-                    7fca5703fe6adf3d04a654704c1f12d7: !TransformComponent
-                        Id: e025ffd8-fdf9-4041-adf7-67265f39a031
-                        Position: {X: 0.0, Y: 1.0, Z: 0.22105384}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    1833f68b1fe2be61403ded986939ecf8: !LightComponent
-                        Id: 71735af2-8dad-4a19-ac42-4ca0df39269f
-                        Type: !LightPoint
-                            Color: !ColorRgbProvider
-                                Value: {R: 0.7375, G: 0.5904033, B: 0.22585936}
-                            Radius: 5.0
-                            Shadow:
-                                Size: Small
-                                BiasParameters: {}
-                        Intensity: 6.0
-        -   Entity:
-                Id: 1642f295-494b-4855-b58f-b8e959bd46b6
-                Name: Point light
-                Components:
-                    7fca5703fe6adf3d04a654704c1f12d7: !TransformComponent
-                        Id: 5e0ad4f2-9132-41d9-b8c8-032b5dd255ff
-                        Position: {X: 0.0, Y: 1.0, Z: 0.22105384}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    1833f68b1fe2be61403ded986939ecf8: !LightComponent
-                        Id: 0040ccb2-34a1-4880-9b6a-ac6ef7dd2b53
-                        Type: !LightPoint
-                            Color: !ColorRgbProvider
-                                Value: {R: 0.7375, G: 0.5904033, B: 0.22585936}
-                            Radius: 5.0
-                            Shadow:
-                                Size: Small
-                                BiasParameters: {}
-                        Intensity: 6.0
-        -   Entity:
-                Id: 1aabbef4-9ff6-4615-aa4a-811712926b1e
-                Name: Point light
-                Components:
-                    7fca5703fe6adf3d04a654704c1f12d7: !TransformComponent
-                        Id: e26d704d-29e9-4bb3-99ee-f6a1c142a849
-                        Position: {X: 0.0, Y: 1.0, Z: 0.22105384}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    1833f68b1fe2be61403ded986939ecf8: !LightComponent
-                        Id: 47699cf0-0aa9-4cf1-bf21-1fb76b1ecea9
-                        Type: !LightPoint
-                            Color: !ColorRgbProvider
-                                Value: {R: 0.7375, G: 0.5904033, B: 0.22585936}
-                            Radius: 5.0
-                            Shadow:
-                                Size: Small
-                                BiasParameters: {}
-                        Intensity: 6.0
-        -   Entity:
-                Id: 1ca7921a-cd23-424c-b3eb-0513f56d6240
-                Name: Point light
-                Components:
-                    7fca5703fe6adf3d04a654704c1f12d7: !TransformComponent
-                        Id: 20936261-1cd3-4e5c-8c6c-400b51575ec5
-                        Position: {X: 0.0, Y: 1.0, Z: 0.22105384}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    1833f68b1fe2be61403ded986939ecf8: !LightComponent
-                        Id: ad613081-f4f7-47e3-871b-68caaff4ff5b
-                        Type: !LightPoint
-                            Color: !ColorRgbProvider
-                                Value: {R: 0.7375, G: 0.5904033, B: 0.22585936}
-                            Radius: 5.0
-                            Shadow:
-                                Size: Small
-                                BiasParameters: {}
-                        Intensity: 6.0
         -   Entity:
                 Id: 1d134208-2a91-448a-b3fd-360b9d0520f3
                 Name: Ground
@@ -568,6 +402,7 @@ Hierarchy:
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                     a6c34887dd62d1fbf837d630edb27564: !GameOff2023.PlayerController,GameOff2023
                         Id: 7074b425-d869-4712-8ac8-723c24bba7cb
+                        Health: ref!! db93608a-d52c-4257-a67c-aa1f90d60d23
                         Velocity: 4.0
                         JumpForce: 4.0
                     56e34e3087f9b9bc06d2d0ee802bafcd: !GameOff2023.CameraRotation,GameOff2023
@@ -575,6 +410,12 @@ Hierarchy:
                         MouseSpeed: 2.0
                         MaxLookUpAngle: -50.0
                         MaxLookDownAngle: 50.0
+                    99af888e9de817040691edd5cf0aeeea: !GameOff2023.Health,GameOff2023
+                        Id: db93608a-d52c-4257-a67c-aa1f90d60d23
+                        HitPoints: 100
+                        CameraPosition: ref!! 9d97632b-009c-4e6b-b6e3-a8c3941bdbb8
+                        Camera: ref!! 2f883c96-cca0-4c5c-b88e-1623851e72fc
+                        Weapon: ref!! 4b4e3e92-aea8-455f-9b97-61ae2dc677a1
         -   Entity:
                 Id: 280667d3-4784-4fd7-88d2-823343337fc3
                 Name: Entity
@@ -896,34 +737,6 @@ Hierarchy:
                 BasePartId: 9e6bc7ed-b474-4b1b-b308-2c3f32d2e476
                 InstanceId: 4e51487d-f44a-4489-923d-5c8fba3efbfb
         -   Entity:
-                Id: 356a2ea8-a8d0-4030-81c9-5a62000d69ae
-                Name: Lightpost
-                Components:
-                    5b01eb078cc2e3c5c24f0f2c8ab83f1c: !TransformComponent
-                        Id: 378e958f-fcb2-47fe-99a1-48b239175ba8
-                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children:
-                            efe5397087a85b4e35ef1a08659de522: ref!! a90d5f3a-e97a-4a51-aeec-a360c9ed0ec2
-                            3a83db564322d0d3eb5c15d2998bbb83: ref!! e53fc5ca-a53b-4c8f-b7a1-8ebc3ec260c8
-                            6a04dae33b7ea3a5de1c34a17d6930a3: ref!! 7cb16f7b-3c51-45ce-ba2d-69fb65ddc88c
-                            dc52e7a523276fa68eb4c8feb480cf68: ref!! ea22c01b-3da5-48ac-886e-7f7d95e5f88f
-                            62d19ccc94a55ce96af741c03a55f64e: ref!! a89a6753-39df-4fc6-ba08-432839a7639e
-                            f9d7b9b78e214d771047b052b9dcf12a: ref!! b954bce9-4da8-4822-800c-470033fbc1fb
-                            fdb05c2f549178b77b1412e4fafa2d77: ref!! e59e5ef4-fefe-4a19-9798-b03097d5479e
-                            73daf6cc8c785248b5bfd52eda0e7cf8: ref!! dc09746c-f71e-470e-8689-08258891ce91
-                            82ee528cc0503c992d0408726c8e8e68: ref!! c364f54b-581f-4477-84b1-adb221b99e12
-                            a4ac3687f8e7a24fb89f2c41c6babc9a: ref!! e56a1858-fb06-4563-80d9-741ac044a46c
-                            e44989fec31cf816bf0ee6c2c33d8290: ref!! 95cb53e9-4cb1-46b7-83f0-4a8576a6aae9
-                            61ff24ea115467d29f1985364c60e56c: ref!! 1e5c0d9e-e10a-49eb-aeb5-aa44d8fc10b8
-                            6795885ae29af3dea50a3b933f83b3f0: ref!! 624f83c6-296e-4c42-a260-6d4b620a47b9
-                            911f6ec6ba46e76f85315b46c3555a23: ref!! b7d90d27-2535-4df6-87b6-615e0184cd5f
-                            3dc92a5c31e9424d5774c11357fc9f14: ref!! c8e817d4-7f32-49b2-8a86-2c157bc68fe4
-                            d4ce36ee35f6344eab3f81c67073d07c: ref!! c4fe0479-3531-4a4a-a014-e1c0e52013e9
-                            e3067c2948ed9c1895f505227bd24b84: ref!! 610b60a0-097e-4c05-bb49-d5fcfcfda629
-                            95535844268da9c63942fdc3d3254515: ref!! 51e7c6b5-f9f1-4272-b2dd-42aa153d436f
-        -   Entity:
                 Id: 371a7c52-5736-4896-9ae4-7f9f584245fa
                 Name: Lantern-Glass
                 Components:
@@ -1025,6 +838,9 @@ Hierarchy:
                         Page: d6cd7ea3-590f-4423-b18f-6c545e16e59f:GameUI
                         Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
                         Size: {X: 1.28, Y: 0.72, Z: 1.0}
+                    ddcc263c9879b5892154439974948e35: !GameOff2023.UserInterface,GameOff2023
+                        Id: a3c30923-4ec3-4134-8804-3ff174e2b8ec
+                        PlayerController: ref!! 7074b425-d869-4712-8ac8-723c24bba7cb
         -   Folder: null
             Entity:
                 Id: 3b6223b2-f8d3-4aeb-ae8b-050e35d1abfd
@@ -1903,26 +1719,6 @@ Hierarchy:
                         ColliderShapes:
                             6954725ddbd8bfe48fa19ec38b240bd3: !StaticMeshColliderShapeDesc
                                 Model: 35235bc0-24b5-4ae3-b353-5a1bdd66d944:Models/Graveyard/stone-wall-column
-        -   Entity:
-                Id: 5e649b3a-e260-49ce-a988-6bdc7caab991
-                Name: Point light
-                Components:
-                    7fca5703fe6adf3d04a654704c1f12d7: !TransformComponent
-                        Id: 5278bcad-a83c-4be7-9b3c-2cbf992f0818
-                        Position: {X: 0.0, Y: 1.0, Z: 0.22105384}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    1833f68b1fe2be61403ded986939ecf8: !LightComponent
-                        Id: 53414de4-169c-4be7-9094-d6e429b63ad0
-                        Type: !LightPoint
-                            Color: !ColorRgbProvider
-                                Value: {R: 0.7375, G: 0.5904033, B: 0.22585936}
-                            Radius: 5.0
-                            Shadow:
-                                Size: Small
-                                BiasParameters: {}
-                        Intensity: 6.0
         -   Folder: null
             Entity:
                 Id: 5ee82875-8361-4c35-aa72-245085389595
@@ -2007,22 +1803,6 @@ Hierarchy:
                             910cfc7f521e7781e041c0e304422cf5: ref!! f64e6aaa-b5cc-450b-9f63-209e6d426b22
                             e9402568f9c014aa3539bb5a01b02776: ref!! f0cca4c7-6719-4416-98e7-55191457b873
                             f9cfdda682206cdf5950325f847831bb: ref!! 91684924-dff5-41f3-9639-2457499becf5
-        -   Folder: null
-            Entity:
-                Id: 61d4e663-610f-4bab-bc8c-3261acd5a0a3
-                Name: Lightpost-Single
-                Components:
-                    d999655c23953720857b7949ef5d9ecc: !TransformComponent
-                        Id: b7d90d27-2535-4df6-87b6-615e0184cd5f
-                        Position: {X: -1.5, Y: 0.0, Z: 9.0}
-                        Rotation: {X: 0.0, Y: 0.70710677, Z: 0.0, W: 0.70710677}
-                        Scale: {X: 1.5, Y: 1.5, Z: 1.5}
-                        Children:
-                            b4d2e566565c5826812d7cec2085fdfd: ref!! 20936261-1cd3-4e5c-8c6c-400b51575ec5
-                    145cacdf29da93e26989aad4e2bafd00: !ModelComponent
-                        Id: 9cb9bfb9-6e53-4163-9991-602115fed065
-                        Model: 6b25aae7-b8cc-491c-aaaf-3953a4a42ca3:Models/Graveyard/lightpost-single
-                        Materials: {}
         -   Folder: null
             Entity:
                 Id: 63c6b87e-29eb-4418-8396-25b0b875be2d
@@ -2113,21 +1893,6 @@ Hierarchy:
                 BasePartAsset: a4a6f7f7-edf3-4396-8065-2e7d572c645d:Prefabs/Grave 1
                 BasePartId: 41198199-e1c5-445c-bf73-e036d093a150
                 InstanceId: d5c482b2-44a7-4502-a37a-d8af25667df3
-        -   Entity:
-                Id: 65d0aebf-1147-4d59-916d-f56626ba2d9b
-                Name: Lightpost-Single
-                Components:
-                    d999655c23953720857b7949ef5d9ecc: !TransformComponent
-                        Id: c8e817d4-7f32-49b2-8a86-2c157bc68fe4
-                        Position: {X: 1.5, Y: 0.0, Z: 6.0}
-                        Rotation: {X: 0.0, Y: -0.70710677, Z: 0.0, W: 0.70710677}
-                        Scale: {X: 1.5, Y: 1.5, Z: 1.5}
-                        Children:
-                            b4d2e566565c5826812d7cec2085fdfd: ref!! 01422a72-8e5f-48b0-9175-1badea8b4200
-                    145cacdf29da93e26989aad4e2bafd00: !ModelComponent
-                        Id: e89bcc1b-dd23-4ea7-a3f0-606dfb387fc2
-                        Model: 6b25aae7-b8cc-491c-aaaf-3953a4a42ca3:Models/Graveyard/lightpost-single
-                        Materials: {}
         -   Entity:
                 Id: 67638550-d6a8-47f5-a871-b8593bb05d9e
                 Name: Gravestone
@@ -2280,26 +2045,6 @@ Hierarchy:
                         Id: 9c12d043-897a-4773-b0e7-47b65364da12
                         Type: !LightSkybox
                             Skybox: 65e3a343-6e9c-48cb-9cd5-50afcafc9a43:Skybox (2)
-        -   Entity:
-                Id: 6d568b9d-6a80-498c-8b86-9c09ea9e32d5
-                Name: Point light
-                Components:
-                    7fca5703fe6adf3d04a654704c1f12d7: !TransformComponent
-                        Id: 553dd748-84a9-4165-a903-9e4260829cd7
-                        Position: {X: 0.0, Y: 1.0, Z: 0.22105384}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    1833f68b1fe2be61403ded986939ecf8: !LightComponent
-                        Id: 4f2ceb24-12c1-4635-aeda-4d51fc70f88f
-                        Type: !LightPoint
-                            Color: !ColorRgbProvider
-                                Value: {R: 0.7375, G: 0.5904033, B: 0.22585936}
-                            Radius: 5.0
-                            Shadow:
-                                Size: Small
-                                BiasParameters: {}
-                        Intensity: 6.0
         -   Folder: null
             Entity:
                 Id: 6e3d6ad8-01c1-452a-ad87-eba41a8057f1
@@ -2328,26 +2073,6 @@ Hierarchy:
                         ColliderShapes:
                             6954725ddbd8bfe48fa19ec38b240bd3: !StaticMeshColliderShapeDesc
                                 Model: 35235bc0-24b5-4ae3-b353-5a1bdd66d944:Models/Graveyard/stone-wall-column
-        -   Entity:
-                Id: 716ac5e9-2cb0-44bb-a228-3f38c9afe221
-                Name: Point light
-                Components:
-                    7fca5703fe6adf3d04a654704c1f12d7: !TransformComponent
-                        Id: ee9865c4-ef38-4ba4-86ca-22522ccebdd1
-                        Position: {X: 0.0, Y: 1.0, Z: 0.22105384}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    1833f68b1fe2be61403ded986939ecf8: !LightComponent
-                        Id: 143ae226-71a4-4060-ba51-ee1eb52f486a
-                        Type: !LightPoint
-                            Color: !ColorRgbProvider
-                                Value: {R: 0.7375, G: 0.5904033, B: 0.22585936}
-                            Radius: 5.0
-                            Shadow:
-                                Size: Small
-                                BiasParameters: {}
-                        Intensity: 6.0
         -   Entity:
                 Id: 71c74c04-744a-46ee-99ee-36a9714046c3
                 Name: iron-fence-border-curve
@@ -2434,21 +2159,6 @@ Hierarchy:
                         ColliderShapes:
                             6954725ddbd8bfe48fa19ec38b240bd3: !StaticMeshColliderShapeDesc
                                 Model: 35235bc0-24b5-4ae3-b353-5a1bdd66d944:Models/Graveyard/stone-wall-column
-        -   Entity:
-                Id: 7922256e-6b71-4472-9a87-7c35c6f39ec8
-                Name: Lightpost-Single
-                Components:
-                    d999655c23953720857b7949ef5d9ecc: !TransformComponent
-                        Id: 610b60a0-097e-4c05-bb49-d5fcfcfda629
-                        Position: {X: 1.5, Y: 0.0, Z: 3.0}
-                        Rotation: {X: 0.0, Y: -0.70710677, Z: 0.0, W: 0.70710677}
-                        Scale: {X: 1.5, Y: 1.5, Z: 1.5}
-                        Children:
-                            b4d2e566565c5826812d7cec2085fdfd: ref!! 5278bcad-a83c-4be7-9b3c-2cbf992f0818
-                    145cacdf29da93e26989aad4e2bafd00: !ModelComponent
-                        Id: 3b5fcbcf-eea2-4549-8e29-27d9c72b3dfc
-                        Model: 6b25aae7-b8cc-491c-aaaf-3953a4a42ca3:Models/Graveyard/lightpost-single
-                        Materials: {}
         -   Entity:
                 Id: 7f2034c7-6a1c-4aa1-8a4f-77d02875a3af
                 Name: iron-fence-border-gate
@@ -2559,26 +2269,6 @@ Hierarchy:
                 BasePartId: 57d872aa-1dfd-4735-bfbd-f62e11f8fe60
                 InstanceId: a28eca4d-e93a-4f05-b5f9-ff08fbea0f4a
         -   Entity:
-                Id: 846a84e7-518f-428a-bcf3-67ff47e0ebf6
-                Name: Point light
-                Components:
-                    7fca5703fe6adf3d04a654704c1f12d7: !TransformComponent
-                        Id: b8f7e51b-130a-4b92-a392-7fd2bfde45cc
-                        Position: {X: 0.0, Y: 1.0, Z: 0.22105384}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    1833f68b1fe2be61403ded986939ecf8: !LightComponent
-                        Id: 8eb1b7f9-e064-4d12-90f9-3b92cac79047
-                        Type: !LightPoint
-                            Color: !ColorRgbProvider
-                                Value: {R: 0.7375, G: 0.5904033, B: 0.22585936}
-                            Radius: 5.0
-                            Shadow:
-                                Size: Small
-                                BiasParameters: {}
-                        Intensity: 6.0
-        -   Entity:
                 Id: 855a893f-060d-4c64-9540-e1bb9a7a5889
                 Name: Border
                 Components:
@@ -2598,22 +2288,6 @@ Hierarchy:
                 BasePartAsset: b77d21d4-ea19-407b-88c1-3ad7b509ac32:Prefabs/Grave
                 BasePartId: ca5681f1-3b84-4502-84e8-aabe3427b3ef
                 InstanceId: 4e51487d-f44a-4489-923d-5c8fba3efbfb
-        -   Folder: null
-            Entity:
-                Id: 8569b095-4e6f-40e8-9959-cbd318c56e03
-                Name: Lightpost-Single
-                Components:
-                    d999655c23953720857b7949ef5d9ecc: !TransformComponent
-                        Id: c4fe0479-3531-4a4a-a014-e1c0e52013e9
-                        Position: {X: -1.5, Y: 0.0, Z: 6.0}
-                        Rotation: {X: 0.0, Y: 0.70710677, Z: 0.0, W: 0.70710677}
-                        Scale: {X: 1.5, Y: 1.5, Z: 1.5}
-                        Children:
-                            b4d2e566565c5826812d7cec2085fdfd: ref!! ee9865c4-ef38-4ba4-86ca-22522ccebdd1
-                    145cacdf29da93e26989aad4e2bafd00: !ModelComponent
-                        Id: d8abbdea-cfdd-4705-988a-c9af0635010e
-                        Model: 6b25aae7-b8cc-491c-aaaf-3953a4a42ca3:Models/Graveyard/lightpost-single
-                        Materials: {}
         -   Entity:
                 Id: 85e047f4-3267-4cc3-948e-33d5bc481085
                 Name: iron-fence-border
@@ -2676,22 +2350,6 @@ Hierarchy:
                 BasePartAsset: b77d21d4-ea19-407b-88c1-3ad7b509ac32:Prefabs/Grave
                 BasePartId: 1bfe4208-f371-4214-ac8c-e80780118434
                 InstanceId: e9326f01-f34c-4b4d-8cf1-ce2da061b67e
-        -   Folder: null
-            Entity:
-                Id: 87990bc3-fcc5-4c3e-b5d8-5f4a0c171286
-                Name: Lightpost-Single
-                Components:
-                    d999655c23953720857b7949ef5d9ecc: !TransformComponent
-                        Id: dc09746c-f71e-470e-8689-08258891ce91
-                        Position: {X: -1.5, Y: 0.0, Z: -3.0}
-                        Rotation: {X: 0.0, Y: 0.70710677, Z: 0.0, W: 0.70710677}
-                        Scale: {X: 1.5, Y: 1.5, Z: 1.5}
-                        Children:
-                            b4d2e566565c5826812d7cec2085fdfd: ref!! 553dd748-84a9-4165-a903-9e4260829cd7
-                    145cacdf29da93e26989aad4e2bafd00: !ModelComponent
-                        Id: 3f037041-3777-4a90-af14-78f432544cbc
-                        Model: 6b25aae7-b8cc-491c-aaaf-3953a4a42ca3:Models/Graveyard/lightpost-single
-                        Materials: {}
         -   Entity:
                 Id: 87efc9f2-9ef0-4fd2-acb0-e320d432e0aa
                 Name: grave
@@ -3270,21 +2928,6 @@ Hierarchy:
                 BasePartAsset: a4a6f7f7-edf3-4396-8065-2e7d572c645d:Prefabs/Grave 1
                 BasePartId: 510de2f4-08f0-47df-a81b-1ff83c2b09ba
                 InstanceId: d5c482b2-44a7-4502-a37a-d8af25667df3
-        -   Entity:
-                Id: 9bbe561e-462c-4e4a-8572-8e4a2cb9c811
-                Name: Lightpost-Single
-                Components:
-                    d999655c23953720857b7949ef5d9ecc: !TransformComponent
-                        Id: 624f83c6-296e-4c42-a260-6d4b620a47b9
-                        Position: {X: 1.5, Y: 0.0, Z: 9.0}
-                        Rotation: {X: 0.0, Y: -0.70710677, Z: 0.0, W: 0.70710677}
-                        Scale: {X: 1.5, Y: 1.5, Z: 1.5}
-                        Children:
-                            b4d2e566565c5826812d7cec2085fdfd: ref!! b4fca4e0-b9e7-4681-8560-1a858046abdb
-                    145cacdf29da93e26989aad4e2bafd00: !ModelComponent
-                        Id: 64de3bc9-0729-4de9-8c4e-61dd0d57ee06
-                        Model: 6b25aae7-b8cc-491c-aaaf-3953a4a42ca3:Models/Graveyard/lightpost-single
-                        Materials: {}
         -   Folder: null
             Entity:
                 Id: 9bd5df4f-07a2-49c7-8282-f58317a2b39b
@@ -3344,6 +2987,16 @@ Hierarchy:
                 BasePartAsset: b77d21d4-ea19-407b-88c1-3ad7b509ac32:Prefabs/Grave
                 BasePartId: 21615e6e-26f7-44bf-8d67-af676b42a9a9
                 InstanceId: 4e51487d-f44a-4489-923d-5c8fba3efbfb
+        -   Entity:
+                Id: 9d97632b-009c-4e6b-b6e3-a8c3941bdbb8
+                Name: CameraPosition
+                Components:
+                    d32388787b86507e30a18fd4037091d9: !TransformComponent
+                        Id: e8ace20f-a204-4271-b2bf-321915322c72
+                        Position: {X: 0.0, Y: 1.25, Z: -12.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
         -   Entity:
                 Id: 9fb6dcc5-befc-4a03-beba-6f96871be4e1
                 Name: Grave (2)
@@ -3407,26 +3060,6 @@ Hierarchy:
                 BasePartAsset: a4a6f7f7-edf3-4396-8065-2e7d572c645d:Prefabs/Grave 1
                 BasePartId: 4611614c-9289-4310-a9ae-203d8bbb938f
                 InstanceId: a28eca4d-e93a-4f05-b5f9-ff08fbea0f4a
-        -   Entity:
-                Id: a267d3ad-0515-4012-81fb-07788fb9d639
-                Name: Point light
-                Components:
-                    7fca5703fe6adf3d04a654704c1f12d7: !TransformComponent
-                        Id: 01422a72-8e5f-48b0-9175-1badea8b4200
-                        Position: {X: 0.0, Y: 1.0, Z: 0.22105384}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    1833f68b1fe2be61403ded986939ecf8: !LightComponent
-                        Id: 7e624c05-b6b1-4748-a29f-c91d0cdd0a19
-                        Type: !LightPoint
-                            Color: !ColorRgbProvider
-                                Value: {R: 0.7375, G: 0.5904033, B: 0.22585936}
-                            Radius: 5.0
-                            Shadow:
-                                Size: Small
-                                BiasParameters: {}
-                        Intensity: 6.0
         -   Folder: null
             Entity:
                 Id: a3faa1bb-c67a-42fb-91ee-40b5c49d1e77
@@ -3531,26 +3164,6 @@ Hierarchy:
                             d52a2734fd1da58717a1acab0dc42adc: ref!! a56f00a9-2224-4372-bddd-8d3ef97fbcd6
                             a462c18c0ac588c2b2a53950e5cde4af: ref!! ae9b9d44-cb84-4bc2-873c-d76593370238
                             1959e80b43eda565dd9012ceb0b3adec: ref!! 3a5afd6f-6d24-4295-9650-a75f796e5403
-        -   Entity:
-                Id: ad88b399-9a65-4797-bd2b-286f7c3946a9
-                Name: Point light
-                Components:
-                    7fca5703fe6adf3d04a654704c1f12d7: !TransformComponent
-                        Id: 0d6614d1-1c57-47c4-ad1b-2ce63fcb65e4
-                        Position: {X: 0.0, Y: 1.0, Z: 0.22105384}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    1833f68b1fe2be61403ded986939ecf8: !LightComponent
-                        Id: c2b592ef-24fe-4115-a838-682f58dca9d9
-                        Type: !LightPoint
-                            Color: !ColorRgbProvider
-                                Value: {R: 0.7375, G: 0.5904033, B: 0.22585936}
-                            Radius: 5.0
-                            Shadow:
-                                Size: Small
-                                BiasParameters: {}
-                        Intensity: 6.0
         -   Folder: null
             Entity:
                 Id: aec34163-a343-4739-b664-0288fc116049
@@ -3663,46 +3276,6 @@ Hierarchy:
                         ColliderShapes:
                             6954725ddbd8bfe48fa19ec38b240bd3: !StaticMeshColliderShapeDesc
                                 Model: 35235bc0-24b5-4ae3-b353-5a1bdd66d944:Models/Graveyard/stone-wall-column
-        -   Entity:
-                Id: b248294e-a556-4a44-8a31-bb3f68570118
-                Name: Point light
-                Components:
-                    7fca5703fe6adf3d04a654704c1f12d7: !TransformComponent
-                        Id: 8deed8f0-2700-41a8-bb23-d9bd4529fade
-                        Position: {X: 0.0, Y: 1.0, Z: 0.22105384}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    1833f68b1fe2be61403ded986939ecf8: !LightComponent
-                        Id: 9247557b-f683-4300-9631-e0f4c1a497b7
-                        Type: !LightPoint
-                            Color: !ColorRgbProvider
-                                Value: {R: 0.7375, G: 0.5904033, B: 0.22585936}
-                            Radius: 5.0
-                            Shadow:
-                                Size: Small
-                                BiasParameters: {}
-                        Intensity: 6.0
-        -   Entity:
-                Id: b3e65112-718a-4ca3-929b-ecb22ff50fc6
-                Name: Point light
-                Components:
-                    7fca5703fe6adf3d04a654704c1f12d7: !TransformComponent
-                        Id: f0eadfee-911a-4720-b0b7-055f646e5f60
-                        Position: {X: 0.0, Y: 1.0, Z: 0.22105384}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    1833f68b1fe2be61403ded986939ecf8: !LightComponent
-                        Id: 2766e053-74f7-4882-8d3e-a693a7cdf2e8
-                        Type: !LightPoint
-                            Color: !ColorRgbProvider
-                                Value: {R: 0.7375, G: 0.5904033, B: 0.22585936}
-                            Radius: 5.0
-                            Shadow:
-                                Size: Small
-                                BiasParameters: {}
-                        Intensity: 6.0
         -   Folder: null
             Entity:
                 Id: b506d798-f4a4-4ca0-93cd-aa1dfeaaf7cd
@@ -3731,26 +3304,6 @@ Hierarchy:
                         Id: bc84e48c-bf17-4a29-8216-4c083b4e1137
                         Model: 163034ea-ae76-42fd-a6a1-f2c4bb06f1f3:Models/Graveyard/stone-wall-curve
                         Materials: {}
-        -   Entity:
-                Id: b7034588-146e-4d67-935b-beddc3ce7cf2
-                Name: Point light
-                Components:
-                    7fca5703fe6adf3d04a654704c1f12d7: !TransformComponent
-                        Id: 4dc13d99-e3fb-4600-a4aa-457d73b1e956
-                        Position: {X: 0.0, Y: 1.0, Z: 0.22105384}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    1833f68b1fe2be61403ded986939ecf8: !LightComponent
-                        Id: f40396d7-0aef-4f27-b106-5a0ab1a47641
-                        Type: !LightPoint
-                            Color: !ColorRgbProvider
-                                Value: {R: 0.7375, G: 0.5904033, B: 0.22585936}
-                            Radius: 5.0
-                            Shadow:
-                                Size: Small
-                                BiasParameters: {}
-                        Intensity: 6.0
         -   Folder: null
             Entity:
                 Id: b727e849-f552-41b8-8aab-1ba03c2060ff
@@ -3948,21 +3501,6 @@ Hierarchy:
                         ColliderShapes:
                             6954725ddbd8bfe48fa19ec38b240bd3: !StaticMeshColliderShapeDesc
                                 Model: 35235bc0-24b5-4ae3-b353-5a1bdd66d944:Models/Graveyard/stone-wall-column
-        -   Entity:
-                Id: c02be2f9-56a0-43df-8159-5be9f35c5e8e
-                Name: Lightpost-Single
-                Components:
-                    d999655c23953720857b7949ef5d9ecc: !TransformComponent
-                        Id: a89a6753-39df-4fc6-ba08-432839a7639e
-                        Position: {X: 1.5, Y: 0.0, Z: -6.0}
-                        Rotation: {X: 0.0, Y: -0.70710677, Z: 0.0, W: 0.70710677}
-                        Scale: {X: 1.5, Y: 1.5, Z: 1.5}
-                        Children:
-                            b4d2e566565c5826812d7cec2085fdfd: ref!! f0eadfee-911a-4720-b0b7-055f646e5f60
-                    145cacdf29da93e26989aad4e2bafd00: !ModelComponent
-                        Id: 144d809f-1a8a-423d-b066-1008a68d4822
-                        Model: 6b25aae7-b8cc-491c-aaaf-3953a4a42ca3:Models/Graveyard/lightpost-single
-                        Materials: {}
         -   Folder: null
             Entity:
                 Id: c1cf5c06-da33-4ac2-99a8-da6db43eb6ef
@@ -3991,26 +3529,6 @@ Hierarchy:
                         ColliderShapes:
                             6954725ddbd8bfe48fa19ec38b240bd3: !StaticMeshColliderShapeDesc
                                 Model: 35235bc0-24b5-4ae3-b353-5a1bdd66d944:Models/Graveyard/stone-wall-column
-        -   Entity:
-                Id: c35f013e-4035-4d12-9930-67eb94d65ace
-                Name: Point light
-                Components:
-                    7fca5703fe6adf3d04a654704c1f12d7: !TransformComponent
-                        Id: 6b10c384-080e-416b-81ab-bd24c9673d32
-                        Position: {X: 0.0, Y: 1.0, Z: 0.22105384}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    1833f68b1fe2be61403ded986939ecf8: !LightComponent
-                        Id: 6192f409-348c-4cf1-bd8f-8e06e5d69ad5
-                        Type: !LightPoint
-                            Color: !ColorRgbProvider
-                                Value: {R: 0.7375, G: 0.5904033, B: 0.22585936}
-                            Radius: 5.0
-                            Shadow:
-                                Size: Small
-                                BiasParameters: {}
-                        Intensity: 6.0
         -   Folder: null
             Entity:
                 Id: c7d21fb7-34df-4b78-acbe-ba57e8975a9c
@@ -4039,37 +3557,6 @@ Hierarchy:
                         ColliderShapes:
                             6954725ddbd8bfe48fa19ec38b240bd3: !StaticMeshColliderShapeDesc
                                 Model: 35235bc0-24b5-4ae3-b353-5a1bdd66d944:Models/Graveyard/stone-wall-column
-        -   Folder: null
-            Entity:
-                Id: cc80e94b-70f6-487a-8074-dd3ed4efd458
-                Name: Lightpost-Single
-                Components:
-                    d999655c23953720857b7949ef5d9ecc: !TransformComponent
-                        Id: e53fc5ca-a53b-4c8f-b7a1-8ebc3ec260c8
-                        Position: {X: -1.5, Y: 0.0, Z: -12.0}
-                        Rotation: {X: 0.0, Y: 0.70710677, Z: 0.0, W: 0.70710677}
-                        Scale: {X: 1.5, Y: 1.5, Z: 1.5}
-                        Children:
-                            b4d2e566565c5826812d7cec2085fdfd: ref!! 0d6614d1-1c57-47c4-ad1b-2ce63fcb65e4
-                    145cacdf29da93e26989aad4e2bafd00: !ModelComponent
-                        Id: 823af842-2111-48ca-ae9d-5576134b2a8b
-                        Model: 6b25aae7-b8cc-491c-aaaf-3953a4a42ca3:Models/Graveyard/lightpost-single
-                        Materials: {}
-        -   Entity:
-                Id: cea3c7e0-47e3-4c9b-9597-b4654a00032b
-                Name: Lightpost-Single
-                Components:
-                    d999655c23953720857b7949ef5d9ecc: !TransformComponent
-                        Id: 95cb53e9-4cb1-46b7-83f0-4a8576a6aae9
-                        Position: {X: 1.5, Y: 0.0, Z: 12.0}
-                        Rotation: {X: 0.0, Y: -0.70710677, Z: 0.0, W: 0.70710677}
-                        Scale: {X: 1.5, Y: 1.5, Z: 1.5}
-                        Children:
-                            b4d2e566565c5826812d7cec2085fdfd: ref!! a24da3f9-0afd-4bb8-80c0-14ddeb12a142
-                    145cacdf29da93e26989aad4e2bafd00: !ModelComponent
-                        Id: ec9cf6ac-84de-4eb4-b8d5-20950037f18b
-                        Model: 6b25aae7-b8cc-491c-aaaf-3953a4a42ca3:Models/Graveyard/lightpost-single
-                        Materials: {}
         -   Entity:
                 Id: cef3292e-909d-445a-a315-5ec273573f2c
                 Name: iron-fence-border
@@ -4240,26 +3727,6 @@ Hierarchy:
                 BasePartId: a371225a-5344-4f21-883d-3c6c81aa5579
                 InstanceId: a28eca4d-e93a-4f05-b5f9-ff08fbea0f4a
         -   Entity:
-                Id: d453d5aa-1a2e-4bb0-a644-80bde2329de3
-                Name: Point light
-                Components:
-                    7fca5703fe6adf3d04a654704c1f12d7: !TransformComponent
-                        Id: a24da3f9-0afd-4bb8-80c0-14ddeb12a142
-                        Position: {X: 0.0, Y: 1.0, Z: 0.22105384}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    1833f68b1fe2be61403ded986939ecf8: !LightComponent
-                        Id: c9300747-b96b-4226-98ff-fee52eec25b7
-                        Type: !LightPoint
-                            Color: !ColorRgbProvider
-                                Value: {R: 0.7375, G: 0.5904033, B: 0.22585936}
-                            Radius: 5.0
-                            Shadow:
-                                Size: Small
-                                BiasParameters: {}
-                        Intensity: 6.0
-        -   Entity:
                 Id: d6ad93e0-28a6-433d-a2bf-9f4723e98d1b
                 Name: iron-fence-border-curve
                 Components:
@@ -4349,22 +3816,6 @@ Hierarchy:
                         ColliderShapes:
                             6954725ddbd8bfe48fa19ec38b240bd3: !StaticMeshColliderShapeDesc
                                 Model: 35235bc0-24b5-4ae3-b353-5a1bdd66d944:Models/Graveyard/stone-wall-column
-        -   Folder: null
-            Entity:
-                Id: d930189b-3c34-42a6-a246-c4be063f4462
-                Name: Lightpost-Single
-                Components:
-                    d999655c23953720857b7949ef5d9ecc: !TransformComponent
-                        Id: b954bce9-4da8-4822-800c-470033fbc1fb
-                        Position: {X: -1.5, Y: 0.0, Z: -6.0}
-                        Rotation: {X: 0.0, Y: 0.70710677, Z: 0.0, W: 0.70710677}
-                        Scale: {X: 1.5, Y: 1.5, Z: 1.5}
-                        Children:
-                            b4d2e566565c5826812d7cec2085fdfd: ref!! 6b10c384-080e-416b-81ab-bd24c9673d32
-                    145cacdf29da93e26989aad4e2bafd00: !ModelComponent
-                        Id: 2e812dda-5b48-49db-9d61-152f628cd2ec
-                        Model: 6b25aae7-b8cc-491c-aaaf-3953a4a42ca3:Models/Graveyard/lightpost-single
-                        Materials: {}
         -   Entity:
                 Id: d97dc0d6-469a-47b4-bf7b-2c680da89a5c
                 Name: iron-fence-border-curve
@@ -4396,37 +3847,6 @@ Hierarchy:
                 BasePartAsset: a4a6f7f7-edf3-4396-8065-2e7d572c645d:Prefabs/Grave 1
                 BasePartId: 16311df7-3390-4d4b-a2df-388bdc57add5
                 InstanceId: a28eca4d-e93a-4f05-b5f9-ff08fbea0f4a
-        -   Folder: null
-            Entity:
-                Id: dc708185-b89b-4174-862c-1334c24e7e43
-                Name: Lightpost-Single
-                Components:
-                    d999655c23953720857b7949ef5d9ecc: !TransformComponent
-                        Id: e56a1858-fb06-4563-80d9-741ac044a46c
-                        Position: {X: -1.5, Y: 0.0, Z: 0.0}
-                        Rotation: {X: 0.0, Y: 0.70710677, Z: 0.0, W: 0.70710677}
-                        Scale: {X: 1.5, Y: 1.5, Z: 1.5}
-                        Children:
-                            b4d2e566565c5826812d7cec2085fdfd: ref!! e025ffd8-fdf9-4041-adf7-67265f39a031
-                    145cacdf29da93e26989aad4e2bafd00: !ModelComponent
-                        Id: ed44711c-739b-4c71-accd-ecb284f550ec
-                        Model: 6b25aae7-b8cc-491c-aaaf-3953a4a42ca3:Models/Graveyard/lightpost-single
-                        Materials: {}
-        -   Entity:
-                Id: dd46f336-4470-414e-a9f5-d4b7a96af648
-                Name: Lightpost-Single
-                Components:
-                    d999655c23953720857b7949ef5d9ecc: !TransformComponent
-                        Id: 7cb16f7b-3c51-45ce-ba2d-69fb65ddc88c
-                        Position: {X: 1.5, Y: 0.0, Z: -9.0}
-                        Rotation: {X: 0.0, Y: -0.70710677, Z: 0.0, W: 0.70710677}
-                        Scale: {X: 1.5, Y: 1.5, Z: 1.5}
-                        Children:
-                            b4d2e566565c5826812d7cec2085fdfd: ref!! 5e0ad4f2-9132-41d9-b8c8-032b5dd255ff
-                    145cacdf29da93e26989aad4e2bafd00: !ModelComponent
-                        Id: 2e5c53d4-0278-4a8e-958f-d6b27d09a0d8
-                        Model: 6b25aae7-b8cc-491c-aaaf-3953a4a42ca3:Models/Graveyard/lightpost-single
-                        Materials: {}
         -   Folder: null
             Entity:
                 Id: de1780b1-d7fc-4852-a81a-c541130b7a1c
@@ -4479,22 +3899,6 @@ Hierarchy:
                 BasePartAsset: a4a6f7f7-edf3-4396-8065-2e7d572c645d:Prefabs/Grave 1
                 BasePartId: c9abe002-a0e8-4653-b666-cc5f5b26d2dc
                 InstanceId: a28eca4d-e93a-4f05-b5f9-ff08fbea0f4a
-        -   Folder: null
-            Entity:
-                Id: df344116-148e-454d-b114-df15d59bd641
-                Name: Lightpost-Single
-                Components:
-                    d999655c23953720857b7949ef5d9ecc: !TransformComponent
-                        Id: 1e5c0d9e-e10a-49eb-aeb5-aa44d8fc10b8
-                        Position: {X: -1.5, Y: 0.0, Z: 12.0}
-                        Rotation: {X: 0.0, Y: 0.70710677, Z: 0.0, W: 0.70710677}
-                        Scale: {X: 1.5, Y: 1.5, Z: 1.5}
-                        Children:
-                            b4d2e566565c5826812d7cec2085fdfd: ref!! 573b4ea8-8b6b-49b9-bfef-cea4a42c4eb1
-                    145cacdf29da93e26989aad4e2bafd00: !ModelComponent
-                        Id: 63ef4bba-98b0-4d71-9d2c-dd7be4475f1b
-                        Model: 6b25aae7-b8cc-491c-aaaf-3953a4a42ca3:Models/Graveyard/lightpost-single
-                        Materials: {}
         -   Entity:
                 Id: df85e991-ea07-4f68-bd2d-e814c4495886
                 Name: grave
@@ -4629,6 +4033,9 @@ Hierarchy:
                                 Model: ae03e7a2-88c2-4620-b83d-886864678e05:Models/Graveyard/character-ghost
                     7173ca65397fc1c7e1f055e4987bf292: !GameOff2023.Ghost,GameOff2023
                         Id: 356fcbf3-92fd-41d5-9533-0c7ae0c70d9f
+                        Time: 1500
+                        Damage: 10
+                        Player: ref!! 7074b425-d869-4712-8ac8-723c24bba7cb
                         MinScale: 0.25
         -   Folder: null
             Entity:
@@ -4693,57 +4100,6 @@ Hierarchy:
                 BasePartAsset: b77d21d4-ea19-407b-88c1-3ad7b509ac32:Prefabs/Grave
                 BasePartId: e70add21-2c6a-472b-b23d-513793bae0e9
                 InstanceId: 4e51487d-f44a-4489-923d-5c8fba3efbfb
-        -   Folder: null
-            Entity:
-                Id: ef26deb0-1b49-4268-9af9-06bba9dbf9a0
-                Name: Lightpost-Single
-                Components:
-                    d999655c23953720857b7949ef5d9ecc: !TransformComponent
-                        Id: 51e7c6b5-f9f1-4272-b2dd-42aa153d436f
-                        Position: {X: -1.5, Y: 0.0, Z: 3.0}
-                        Rotation: {X: 0.0, Y: 0.70710677, Z: 0.0, W: 0.70710677}
-                        Scale: {X: 1.5, Y: 1.5, Z: 1.5}
-                        Children:
-                            b4d2e566565c5826812d7cec2085fdfd: ref!! e26d704d-29e9-4bb3-99ee-f6a1c142a849
-                    145cacdf29da93e26989aad4e2bafd00: !ModelComponent
-                        Id: ddc3479a-d005-4213-bc74-d1c18ea9f9d2
-                        Model: 6b25aae7-b8cc-491c-aaaf-3953a4a42ca3:Models/Graveyard/lightpost-single
-                        Materials: {}
-        -   Entity:
-                Id: f2af0a35-2e2b-46d4-9c64-2d268e674a7c
-                Name: Lightpost-Single
-                Components:
-                    d999655c23953720857b7949ef5d9ecc: !TransformComponent
-                        Id: a90d5f3a-e97a-4a51-aeec-a360c9ed0ec2
-                        Position: {X: 1.5, Y: 0.0, Z: -12.0}
-                        Rotation: {X: 0.0, Y: -0.70710677, Z: 0.0, W: 0.70710677}
-                        Scale: {X: 1.5, Y: 1.5, Z: 1.5}
-                        Children:
-                            b4d2e566565c5826812d7cec2085fdfd: ref!! 4dc13d99-e3fb-4600-a4aa-457d73b1e956
-                    145cacdf29da93e26989aad4e2bafd00: !ModelComponent
-                        Id: 14f259cb-090b-4d84-b640-164972a4e420
-                        Model: 6b25aae7-b8cc-491c-aaaf-3953a4a42ca3:Models/Graveyard/lightpost-single
-                        Materials: {}
-        -   Entity:
-                Id: f520ed68-74b6-49cc-98af-b606113a451f
-                Name: Point light
-                Components:
-                    7fca5703fe6adf3d04a654704c1f12d7: !TransformComponent
-                        Id: 573b4ea8-8b6b-49b9-bfef-cea4a42c4eb1
-                        Position: {X: 0.0, Y: 1.0, Z: 0.22105384}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    1833f68b1fe2be61403ded986939ecf8: !LightComponent
-                        Id: a48168a4-7c23-4d7c-bd38-8e03de75864d
-                        Type: !LightPoint
-                            Color: !ColorRgbProvider
-                                Value: {R: 0.7375, G: 0.5904033, B: 0.22585936}
-                            Radius: 5.0
-                            Shadow:
-                                Size: Small
-                                BiasParameters: {}
-                        Intensity: 6.0
         -   Entity:
                 Id: f6c481a3-3142-41db-bf49-e08683b4a021
                 Name: Point light
