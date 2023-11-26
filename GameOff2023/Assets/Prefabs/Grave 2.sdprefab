@@ -1,0 +1,65 @@
+!PrefabAsset
+Id: 02225210-660d-47a1-9921-bf43fbfaa448
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 0ce3dd74-d181-41d6-9cec-89c4d2b36a74
+        - ref!! 4a471226-19ff-404b-94bc-e708f3f522a7
+        - ref!! 777fefa5-a150-40be-9665-21abce8ac518
+    Parts:
+        -   Entity:
+                Id: 0ce3dd74-d181-41d6-9cec-89c4d2b36a74
+                Name: crypt-large
+                Components:
+                    c24da02fda31c7db2e45377980d55180: !TransformComponent
+                        Id: d20ce41c-00d7-4d6b-b902-5792b48c53be
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    5532ce017aeff3063071ae49b877c471: !ModelComponent
+                        Id: db39ad95-17b7-4a50-a65b-f6a264d29975
+                        Model: 73a1fc8c-2388-4306-89c2-98e8f9aaa6cc:Models/Graveyard/crypt-large
+                        Materials: {}
+                    b778acd0907ae08219233195dabeec69: !StaticColliderComponent
+                        Id: 122acb71-e917-40bb-b4da-4f01ac02c041
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            c38c5608569d31d012c0b27c76acd37f: !StaticMeshColliderShapeDesc
+                                Model: 73a1fc8c-2388-4306-89c2-98e8f9aaa6cc:Models/Graveyard/crypt-large
+        -   Entity:
+                Id: 4a471226-19ff-404b-94bc-e708f3f522a7
+                Name: crypt-small-roof
+                Components:
+                    6b074fc28a4f3b824378723bbd903b78: !TransformComponent
+                        Id: b6504a15-22fd-41a2-a620-598b07e72588
+                        Position: {X: 0.0, Y: 1.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 2.0}
+                        Children: {}
+                    4dd5a3f89a6fa25b37654efd28a81dd4: !ModelComponent
+                        Id: b558bab1-e4ba-441b-a905-70f1cd87ca5c
+                        Model: 845e0cfd-4813-40c9-bcb7-5928a9a79511:Models/Graveyard/crypt-small-roof
+                        Materials: {}
+        -   Entity:
+                Id: 777fefa5-a150-40be-9665-21abce8ac518
+                Name: crypt-door
+                Components:
+                    9116e728b8c760739ed888bf5d48322f: !TransformComponent
+                        Id: 3ddb4883-f5f7-4775-9074-1020f528d6a9
+                        Position: {X: -0.3, Y: 0.0, Z: 0.925}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.5, Y: 1.125, Z: 1.0}
+                        Children: {}
+                    176d2b1276c3554423e88c10b1620d5a: !ModelComponent
+                        Id: 25d9677a-58a3-4793-92a2-0e5a21f9b88e
+                        Model: a377b33c-68a9-47b7-b9ea-eae64cdc9eb2:Models/Graveyard/crypt-door
+                        Materials: {}

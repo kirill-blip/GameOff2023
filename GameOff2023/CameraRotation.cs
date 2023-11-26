@@ -7,13 +7,14 @@ namespace GameOff2023
 {
     public class CameraRotation : SyncScript
     {
+        public GameManager GameManager;
+
         public float MouseSpeed = .6f;
         public float MaxLookUpAngle = -50;
         public float MaxLookDownAngle = 50;
 
         private Entity _cameraPivot;
         private Vector3 _cameraRotation;
-        private bool _isActive = false;
         private Vector2 _maxCameraAnglesRadians;
         private CharacterComponent _character;
 
@@ -22,28 +23,14 @@ namespace GameOff2023
             _cameraPivot = Entity.FindChild("CameraPivot");
 
             _maxCameraAnglesRadians = new Vector2(MathUtil.DegreesToRadians(MaxLookUpAngle), MathUtil.DegreesToRadians(MaxLookDownAngle));
-
             _cameraRotation = Entity.Transform.RotationEulerXYZ;
-
-
-            Input.MousePosition = new Vector2(.5f, .5f);
-
-            _isActive = true;
-            Game.IsMouseVisible = false;
 
             _character = Entity.Get<CharacterComponent>();
         }
 
         public override void Update()
         {
-            if (Input.IsKeyPressed(Keys.Escape))
-            {
-                _isActive = !_isActive;
-                Game.IsMouseVisible = !_isActive;
-                Input.UnlockMousePosition();
-            }
-
-            if (_isActive)
+            if (GameManager.IsMouseActive)
             {
                 Input.LockMousePosition();
                 var mouseMovement = Input.MouseDelta * MouseSpeed;

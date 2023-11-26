@@ -31,7 +31,7 @@ namespace GameOff2023
             }
         }
 
-        private void Kill()
+        public void Kill()
         {
             Camera.SetParent(CameraPosition);
             Camera.Transform.Position = Vector3.Zero;

@@ -1,0 +1,8 @@
+!Sound
+Id: a6876af1-3aec-48a1-941e-e5e83cf6faac
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../../../../Downloads/407474__loyalty_freak_music__enemy-death.mp3
+CompressionRatio: 15
+StreamFromDisk: true
+Spatialized: false

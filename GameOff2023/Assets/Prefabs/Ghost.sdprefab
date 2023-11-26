@@ -1,0 +1,47 @@
+!PrefabAsset
+Id: 3a4cafb5-c259-45ca-8a4a-7dbe4ebb787f
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 2de0aba2-cc0b-48ab-b82d-4478e00b8e88
+    Parts:
+        -   Entity:
+                Id: 2de0aba2-cc0b-48ab-b82d-4478e00b8e88
+                Name: Ghost
+                Components:
+                    e310f8296ea01e8fd5e731bfaa6d6a1e: !TransformComponent
+                        Id: 71444a43-43f0-4a22-8027-84fa55472778
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    f4f5c50e4348d8a167633387a6a61688: !ModelComponent
+                        Id: 727a4087-3f7e-43ff-b035-fdeac189cc85
+                        Model: ae03e7a2-88c2-4620-b83d-886864678e05:Models/Graveyard/character-ghost
+                        Materials: {}
+                    b373a10f9ea0acf2c1bed445a623c124: !StaticColliderComponent
+                        Id: 7062a398-213b-4a40-b8c5-d374e3fb8d74
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            fd71a2507ec2ef180c1d45e87f0ceed2: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 0.5, Y: 0.65, Z: 0.5}
+                                LocalOffset: {X: 0.0, Y: 0.45, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    0eed4a09471316f9892cfb623d0a0a73: !GameOff2023.Ghost,GameOff2023
+                        Id: 4654c25f-24d5-4d88-8b03-1db58eb359a5
+                        Distance: 2.5
+                        RotationSpeed: 50.0
+                        Time: 1500
+                        Damage: 10
+                        Sound: a6876af1-3aec-48a1-941e-e5e83cf6faac:Audio/407474__loyalty_freak_music__enemy-death
+                        Player: null
+                        MinScale: 0.25

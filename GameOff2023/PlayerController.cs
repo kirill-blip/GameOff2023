@@ -1,5 +1,4 @@
-﻿using SharpDX.DirectInput;
-using Stride.Core.Mathematics;
+﻿using Stride.Core.Mathematics;
 using Stride.Engine;
 using Stride.Input;
 using Stride.Physics;
@@ -50,7 +49,6 @@ namespace GameOff2023
             direction.Normalize();
             direction = Vector3.Transform(direction, Entity.Transform.Rotation);
             _character.SetVelocity(direction * Velocity);
-
 
             if (Input.IsKeyPressed(Keys.Space) && _character.IsGrounded)
             {

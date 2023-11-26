@@ -2,7 +2,7 @@
 Id: c7928641-a981-4d84-8d34-5061e2e8411b
 SerializedVersion: {Stride: 3.1.0.1}
 Tags: []
-DefaultScene: 6c63b590-fec1-432e-9d4d-656581332645:MainScene
+DefaultScene: f1d5ed07-da2f-4116-a2fd-c5a5e71beab9:Scenes/Menu
 GraphicsCompositor: c9c99835-b4fc-4705-9e87-05e59c36fd46:GraphicsCompositor
 Defaults:
     - !Stride.Audio.AudioEngineSettings,Stride.Audio
@@ -10,8 +10,8 @@ Defaults:
     - !Stride.Assets.EditorSettings,Stride.Assets
         RenderingMode: HDR
     - !Stride.Graphics.RenderingSettings,Stride.Graphics
-        DefaultBackBufferWidth: 1280
-        DefaultBackBufferHeight: 720
+        DefaultBackBufferWidth: 720
+        DefaultBackBufferHeight: 480
         AdaptBackBufferToScreen: false
         DefaultGraphicsProfile: Level_10_0
         ColorSpace: Linear

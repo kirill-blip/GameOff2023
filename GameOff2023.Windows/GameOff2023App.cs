@@ -1,4 +1,5 @@
 using Stride.Engine;
+using Stride.Games;
 
 namespace GameOff2023
 {

@@ -1,0 +1,59 @@
+!SceneAsset
+Id: f1d5ed07-da2f-4116-a2fd-c5a5e71beab9
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! 542a25b4-7a90-4eb8-b2d8-295bd861fab5
+        - ref!! 7fb1c847-7ab3-4d54-9583-90e0c04141c6
+        - ref!! d9e00d6a-504b-40d6-beba-fb515d540e03
+    Parts:
+        -   Entity:
+                Id: 542a25b4-7a90-4eb8-b2d8-295bd861fab5
+                Name: Camera
+                Components:
+                    a2b18c0afe4edb21cee07e4d00ee2e4f: !TransformComponent
+                        Id: 6559c7ac-2a1b-4ba8-9eba-1cb630031acb
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    33e318ca9fc9a522f1f5ac70fdfbbef9: !CameraComponent
+                        Id: 554df445-9d22-45e9-b9c3-93188b7ca0fb
+                        Name: null
+                        Projection: Perspective
+                        Slot: 39c3a0df-c9ee-42cc-8140-2c314a363fc2
+        -   Entity:
+                Id: 7fb1c847-7ab3-4d54-9583-90e0c04141c6
+                Name: UI
+                Components:
+                    60ba4952bcbf2ffd32e72a441acd5ee8: !TransformComponent
+                        Id: 45cd6832-95b2-4af4-9a98-e42025e08c01
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7383607760de7c42f408eecca75dcfd3: !UIComponent
+                        Id: ccfff7f2-8b66-4307-b869-f94c68765e21
+                        Page: 4241fd21-d9dc-4d66-825e-0abd89e02b5e:UIPages/Menu
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.28, Y: 0.72, Z: 1.0}
+                    848919987a87dd29d405e2612d2bdacb: !GameOff2023.Menu,GameOff2023
+                        Id: f7a62d2e-0029-416e-8e11-967edeb144af
+                        LevelLoader: ref!! ca1de103-4688-4a6a-b086-7aa4f0c4fc34
+        -   Entity:
+                Id: d9e00d6a-504b-40d6-beba-fb515d540e03
+                Name: LevelLoader
+                Components:
+                    52d0117430d73f577962f345fbacd538: !TransformComponent
+                        Id: b497a372-5252-4712-acf1-f594e1ed84e1
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4617dec3cfe9249ae2d60ab144c4433f: !GameOff2023.LevelLoader,GameOff2023
+                        Id: ca1de103-4688-4a6a-b086-7aa4f0c4fc34
+                        MenuScene: null
+                        LevelScene: 6c63b590-fec1-432e-9d4d-656581332645:Scenes/MainScene

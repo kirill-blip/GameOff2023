@@ -1,0 +1,35 @@
+!PrefabAsset
+Id: c0243e3e-7d9a-4f17-8a46-0e86697b1a73
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 3ba35cdf-8ec6-473f-9c0f-1b13590afd48
+    Parts:
+        -   Entity:
+                Id: 3ba35cdf-8ec6-473f-9c0f-1b13590afd48
+                Name: trunk
+                Components:
+                    4b2bec2978954e3d516a39e0951daed2: !TransformComponent
+                        Id: d1c62568-4f4c-4981-a75c-de1f7da4f58a
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    5cf44a0f3bcfd5eaa4faadf5ce2e3b12: !ModelComponent
+                        Id: d66b4d80-5eb5-4304-a82e-a2573cf5ef71
+                        Model: 4fdcc47d-4618-479f-9bed-6f34735ed4c6:Models/Graveyard/trunk
+                        Materials: {}
+                    856349b8f97f154d277d2ee6befbeed7: !StaticColliderComponent
+                        Id: 37ce1acc-f096-4211-a6dc-1e23d966853c
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            b9cea011bbf20c387687867732e37ab9: !StaticMeshColliderShapeDesc
+                                Model: 4fdcc47d-4618-479f-9bed-6f34735ed4c6:Models/Graveyard/trunk

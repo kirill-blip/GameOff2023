@@ -1,0 +1,7 @@
+!Sound
+Id: 25c66324-8cd4-42ad-a6f4-3f1715ddbbe4
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../../../../Downloads/629891__hajisounds__dark_theme.wav
+StreamFromDisk: true
+Spatialized: false

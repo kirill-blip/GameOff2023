@@ -1,0 +1,43 @@
+!PrefabAsset
+Id: 50a2631c-9677-46bd-b521-33c7f8468979
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 30ad324a-7170-4f60-b83c-aebd72bc734b
+        - ref!! 8e10b8a5-1517-4ab5-9382-f23068cb4c84
+    Parts:
+        -   Entity:
+                Id: 30ad324a-7170-4f60-b83c-aebd72bc734b
+                Name: pumpkin-tall-carved
+                Components:
+                    3ce416c1b528810c9dc1ee75d4f9900c: !TransformComponent
+                        Id: 29513937-158f-4876-bfb5-57e1376d060f
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.25, Y: 1.25, Z: 1.25}
+                        Children: {}
+                    dbc3003f6ad83431b0f5c9a4baa0bdbf: !ModelComponent
+                        Id: 1a238132-299d-4f7d-93c2-cb25b4de7cae
+                        Model: cf70b22c-a53e-467f-8e0b-4fdebbd9e4ca:Models/Graveyard/pumpkin-tall-carved
+                        Materials: {}
+        -   Entity:
+                Id: 8e10b8a5-1517-4ab5-9382-f23068cb4c84
+                Name: Point light
+                Components:
+                    9029b325124768a0ca08f8083530078f: !TransformComponent
+                        Id: a9c699a3-dfed-49ee-957b-cd60bdfce6cf
+                        Position: {X: 0.0, Y: 0.125, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    67f81f65bfda0b0ea05c10bed75ccdde: !LightComponent
+                        Id: 56ca1b2f-059e-486f-b2a2-471958d4efb1
+                        Type: !LightPoint
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 0.4198438, B: 0.012499988}
+                            Radius: 1.5
+                            Shadow: !LightPointShadowMap
+                                Size: Small
+                                BiasParameters: {}
+                        Intensity: 3.0

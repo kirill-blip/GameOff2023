@@ -1,0 +1,179 @@
+!UIPageAsset
+Id: d6cd7ea3-590f-4423-b18f-6c545e16e59f
+SerializedVersion: {Stride: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 720.0, Y: 480.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Grid ref!! 166ceb53-342a-47f8-934c-fd1af5343959
+    Parts:
+        -   UIElement: !TextBlock
+                Id: 05a0637a-a270-48b5-8197-48db187829b0
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: 
+                Text: Menu
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 30.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !Grid
+                Id: 166ceb53-342a-47f8-934c-fd1af5343959
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Children:
+                    eeb2a7c752b09fc92349a8164d8b074b: !Grid ref!! a35920ae-9a00-4d2a-9c63-4a325b22ded6
+                    9919627ee40c02039992dd4d3fd8ab5c: !Grid ref!! 7a6b15f9-7b41-49cd-8643-4d41beaacfc7
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !Button
+                Id: 249dc6ce-9633-4dbe-97d1-76659f566909
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 150.0
+                Height: 50.0
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {Bottom: 75.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: RestartButton
+                Content: !TextBlock ref!! f623651f-bd66-4495-867a-55871af7e940
+                PressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 2
+                NotPressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 1
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+        -   UIElement: !Button
+                Id: 4172686a-a6d7-4adb-9a2b-fce1f713a656
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 150.0
+                Height: 50.0
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {Top: 75.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: MenuButton
+                Content: !TextBlock ref!! 05a0637a-a270-48b5-8197-48db187829b0
+                PressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 2
+                NotPressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 1
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+        -   UIElement: !TextBlock
+                Id: 635d789f-2f2b-4246-812f-f2a8001d2ddc
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 75.0
+                Height: 25.0
+                HorizontalAlignment: Right
+                VerticalAlignment: Bottom
+                Margin: {Right: 10.0, Bottom: 10.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: HealthText
+                Text: 100
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 25.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                TextAlignment: Center
+        -   UIElement: !Grid
+                Id: 7a6b15f9-7b41-49cd-8643-4d41beaacfc7
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Visibility: Hidden
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: EndPanel
+                Children:
+                    4be30ce1f0139ff2aca84658cd207be7: !Button ref!! 249dc6ce-9633-4dbe-97d1-76659f566909
+                    dd43ce398923b07d22ab9a0428fa2cc4: !Button ref!! 4172686a-a6d7-4adb-9a2b-fce1f713a656
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !Grid
+                Id: a35920ae-9a00-4d2a-9c63-4a325b22ded6
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: BaseUI
+                Children:
+                    2d9d27d64337c661b2be95b0a1b1ceba: !ImageElement ref!! e6f31e53-83e6-4c85-8888-07328c8f394c
+                    bbc25e5be73711c3f2c0654b2d6033d3: !TextBlock ref!! 635d789f-2f2b-4246-812f-f2a8001d2ddc
+                    802108595d9b56edaa097be3877f4b1a: !TextBlock ref!! c00e5d75-6231-4291-8ed8-c9b825b073e5
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !TextBlock
+                Id: c00e5d75-6231-4291-8ed8-c9b825b073e5
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 237.0
+                Height: 28.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {}
+                Name: GhostCount
+                Text: 'Ghosts left: 10'
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 25.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                TextAlignment: Center
+        -   UIElement: !ImageElement
+                Id: e6f31e53-83e6-4c85-8888-07328c8f394c
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 30.0
+                Height: 30.0
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Source: !SpriteFromSheet
+                    Sheet: 39929c11-518b-4e48-90b7-7d09e508ee38:Sprites/SpriteSheet
+                Color: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !TextBlock
+                Id: f623651f-bd66-4495-867a-55871af7e940
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Text: Restart
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 30.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}

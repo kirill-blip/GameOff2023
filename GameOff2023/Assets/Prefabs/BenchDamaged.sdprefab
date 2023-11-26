@@ -1,0 +1,35 @@
+!PrefabAsset
+Id: 7fc2d62d-a4ed-4451-85a2-fdd3d42a80b5
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 08596892-5728-43df-86b8-d63b836eb24a
+    Parts:
+        -   Entity:
+                Id: 08596892-5728-43df-86b8-d63b836eb24a
+                Name: bench-damaged
+                Components:
+                    e7742ce0aad571920c69dd8715fed686: !TransformComponent
+                        Id: 6614a045-c6dd-4054-9fc4-8e0792dbae85
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    46a864902d03342f61f2be5b2b7088dd: !ModelComponent
+                        Id: 26d01fdb-cca1-466f-b2ca-f8a80282ab1b
+                        Model: 084c7a1b-7e7a-4482-a1b4-61193d9bd05c:Models/Graveyard/bench-damaged
+                        Materials: {}
+                    58bdd2005664afe0176ce6ea5e827ade: !StaticColliderComponent
+                        Id: eb8f01a7-71fc-470f-9d24-a877105fcbd7
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            abcc03f334edd9ea38dcdf08c95ca3f7: !StaticMeshColliderShapeDesc
+                                Model: 084c7a1b-7e7a-4482-a1b4-61193d9bd05c:Models/Graveyard/bench-damaged

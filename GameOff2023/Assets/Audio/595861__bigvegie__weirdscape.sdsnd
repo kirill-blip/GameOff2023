@@ -1,0 +1,7 @@
+!Sound
+Id: 0473c1fd-1cf3-4330-afee-68202a3fd007
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../../../../Downloads/595861__bigvegie__weirdscape.wav
+StreamFromDisk: true
+Spatialized: false
