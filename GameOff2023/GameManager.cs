@@ -10,6 +10,7 @@ namespace GameOff2023
     {
         public List<Ghost> Ghosts = new();
         public PlayerController PlayerController;
+        public UserInterface UserInterface;
 
         public bool IsMouseActive = false;
 
@@ -44,6 +45,8 @@ namespace GameOff2023
 
         private void EnableOrDiactivateMouse()
         {
+            Input.MousePosition = new Vector2(0, 0);
+
             IsMouseActive = !IsMouseActive;
             Game.IsMouseVisible = !IsMouseActive;
 
@@ -75,13 +78,21 @@ namespace GameOff2023
 
         private void OnPlayerKilled(object sender, EventArgs e)
         {
+            foreach (var ghost in Ghosts) 
+            {
+                ghost.Player = null;
+            }
+
+            UserInterface = null;
+            PlayerController = null;
+
             StopGame();
         }
 
         private void StopGame()
         {
-            EnableOrDiactivateMouse();
             GameOvered?.Invoke(this, null);
+            EnableOrDiactivateMouse();
         }
     }
 }

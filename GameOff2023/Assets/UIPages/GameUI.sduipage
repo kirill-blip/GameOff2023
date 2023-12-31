@@ -22,7 +22,7 @@ Hierarchy:
                 Text: Menu
                 Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
                 TextSize: 30.0
-                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                TextColor: {R: 163, G: 171, B: 203, A: 255}
         -   UIElement: !Grid
                 Id: 166ceb53-342a-47f8-934c-fd1af5343959
                 DependencyProperties: {}
@@ -99,7 +99,7 @@ Hierarchy:
                 Text: 100
                 Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
                 TextSize: 25.0
-                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                TextColor: {R: 163, G: 171, B: 203, A: 255}
                 TextAlignment: Center
         -   UIElement: !Grid
                 Id: 7a6b15f9-7b41-49cd-8643-4d41beaacfc7
@@ -146,7 +146,7 @@ Hierarchy:
                 Text: 'Ghosts left: 10'
                 Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
                 TextSize: 25.0
-                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                TextColor: {R: 163, G: 171, B: 203, A: 255}
                 TextAlignment: Center
         -   UIElement: !ImageElement
                 Id: e6f31e53-83e6-4c85-8888-07328c8f394c
@@ -176,4 +176,4 @@ Hierarchy:
                 Text: Restart
                 Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
                 TextSize: 30.0
-                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                TextColor: {R: 163, G: 171, B: 203, A: 255}

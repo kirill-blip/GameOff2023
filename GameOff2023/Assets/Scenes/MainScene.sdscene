@@ -9460,6 +9460,7 @@ Hierarchy:
                             d3bcdc985861f0e6ed27616bfad6e882: ref!! 6bcee2df-829b-4ec1-8a15-386f48561994
                             36bacded10a77464489dfd38ed5a724a: ref!! 69186509-49aa-48c9-a525-bf1c0f4f847f
                         PlayerController: ref!! c71119a1-2d99-46f5-ad97-9b701be6de0f
+                        UserInterface: ref!! a3c30923-4ec3-4134-8804-3ff174e2b8ec
                         IsMouseActive: false
         -   Folder: null
             Entity:

@@ -16,8 +16,8 @@ Hierarchy:
                 Components:
                     a2b18c0afe4edb21cee07e4d00ee2e4f: !TransformComponent
                         Id: 6559c7ac-2a1b-4ba8-9eba-1cb630031acb
-                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Position: {X: 0.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: -0.1305262, Y: 0.0, Z: 0.0, W: 0.9914449}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     33e318ca9fc9a522f1f5ac70fdfbbef9: !CameraComponent

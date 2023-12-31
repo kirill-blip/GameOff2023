@@ -9,6 +9,23 @@ Hierarchy:
         - !Grid ref!! b3e9d2ea-3f41-4115-be78-6386021bfbea
     Parts:
         -   UIElement: !TextBlock
+                Id: 51856b22-f1c2-441d-98c7-50dc38a01396
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Opacity: 0.9
+                Width: 450.0
+                Height: 60.0
+                VerticalAlignment: Top
+                Margin: {Left: 435.0, Top: 200.0, Right: 395.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Text: Ghost Scaling
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 55.0
+                TextColor: {R: 73, G: 86, B: 88, A: 255}
+                TextAlignment: Center
+        -   UIElement: !TextBlock
                 Id: 89e17d33-6c8e-409b-ad82-ba97078f5e18
                 DependencyProperties: {}
                 BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
@@ -21,7 +38,7 @@ Hierarchy:
                 Text: Exit
                 Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
                 TextSize: 40.0
-                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                TextColor: {R: 163, G: 171, B: 203, A: 255}
         -   UIElement: !TextBlock
                 Id: 9603fd31-e25b-411d-9a3c-3331510e7c99
                 DependencyProperties: {}
@@ -32,11 +49,11 @@ Hierarchy:
                 Text: Start
                 Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
                 TextSize: 40.0
-                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                TextColor: {R: 163, G: 171, B: 203, A: 255}
         -   UIElement: !Button
                 Id: 9ff88a88-79a1-4b6d-8260-08f34deb687b
                 DependencyProperties: {}
-                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                BackgroundColor: {R: 111, G: 128, B: 116, A: 255}
                 DrawLayerNumber: 2
                 Width: 150.0
                 Height: 50.0
@@ -64,13 +81,14 @@ Hierarchy:
                 Children:
                     3414032e76f6ed5c8cf34bdab4738f41: !Button ref!! f6b21aa0-b8c4-447c-a1dc-c72f408b3a60
                     35739b2525f301935bd323b0337bee9d: !Button ref!! 9ff88a88-79a1-4b6d-8260-08f34deb687b
+                    168fd44d4c216412a0cce7cdf6fc25c3: !TextBlock ref!! 51856b22-f1c2-441d-98c7-50dc38a01396
                 RowDefinitions: {}
                 ColumnDefinitions: {}
                 LayerDefinitions: {}
         -   UIElement: !Button
                 Id: f6b21aa0-b8c4-447c-a1dc-c72f408b3a60
                 DependencyProperties: {}
-                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                BackgroundColor: {R: 111, G: 128, B: 116, A: 255}
                 DrawLayerNumber: 2
                 Width: 150.0
                 Height: 50.0
